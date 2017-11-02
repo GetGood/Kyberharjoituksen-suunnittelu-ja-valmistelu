@@ -2,9 +2,9 @@
 
 ###### Vyos 0
 
-Internal interface: 195.20.4.1/24
-Bridged interface: 20.0.0.10/24
-Loopback interface 1.1.1.1/32
+Internal interface: 195.20.4.1/24  
+Bridged interface: 20.0.0.10/24  
+Loopback interface 1.1.1.1/32  
 
 ```
 interfaces {
@@ -39,9 +39,9 @@ protocols {
 
 ###### Vyos 1
 
-Internal interface: 89.250.48.1/24
-Bridged interface: 20.0.0.1/24
-Loopback: 2.2.2.2/32
+Internal interface: 89.250.48.1/24  
+Bridged interface: 20.0.0.1/24  
+Loopback: 2.2.2.2/32  
 
 ```
 interfaces {
@@ -76,9 +76,9 @@ protocols {
 
 ###### Vyos 2
 
-Internal interface: 31.7.16.1/24
-Bridged interface: 20.0.0.2/24
-Loopback: 3.3.3.3/32
+Internal interface: 31.7.16.1/24  
+Bridged interface: 20.0.0.2/24  
+Loopback: 3.3.3.3/32  
 
 ```
 interfaces {
@@ -113,10 +113,10 @@ protocols {
 
 ###### Vyos 3
 
-Internal interface: 79.175.127.0/24
-Internal interface: 37.47.255.0/24
-Bridged interface: 20.0.0.3/24
-Loopback: 4.4.4.4/32
+Internal interface: 79.175.127.0/24  
+Internal interface: 37.47.255.0/24  
+Bridged interface: 20.0.0.3/24  
+Loopback: 4.4.4.4/32  
 
 ```
 interfaces {
