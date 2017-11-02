@@ -24,7 +24,7 @@ iface enp0s8 inet static
   pre-down ip route add 194.100.49.151 via 10.0.3.2 dev enp0s8
   ```
   
-  Oleelliset konfiguraatiot tiedostossa /etc/ntp.conf
+  ###### Oleelliset konfiguraatiot tiedostossa /etc/ntp.conf
   ```
   server 194.100.49.151 prefer #time1.mikes.fi
   server 194.100.49.152 #time2.mikes.fi
