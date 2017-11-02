@@ -9,7 +9,7 @@ Adapter 2 NAT
 auto enp0s3
   address 195.20.4.10
   netmask 255.255.255.0
-   gateway 195.20.4.1
+  gateway 195.20.4.1
    
 auto enp0s8
 iface enp0s8 inet static
