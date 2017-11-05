@@ -2,8 +2,8 @@
 
 Started up Pfsense 64 bit BSD with only one bridged interface to install and configure packages needed.
 ```
-Installed SNORT ISD package “pfSense-pkg-snort-3.2.9.5_2
-Installed Dark stat “pfSense-pkg-darkstat: 3.1.3_4
+Installed SNORT ISD package pfSense-pkg-snort-3.2.9.5_2
+Installed Dark stat pfSense-pkg-darkstat: 3.1.3_4
 ```
 Downloaded and updated following rulesets for Snort:
 ```
