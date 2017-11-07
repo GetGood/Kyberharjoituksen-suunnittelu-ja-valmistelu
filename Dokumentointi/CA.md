@@ -129,6 +129,6 @@
 
 8. Sivustoon *10.0.0.1* voidaan muodostaan nyt varmennettu SSL-yhteys
 
-## Huomioitavaa
+### Huomioitavaa
 
 Jos avaintiedostoa *newkey.pem* ei saa auki, voi DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: *openssl rsa -in ”newkey.pem” -out ”newnewkey.pem”* ja siirtää tämän jälkeen halutulle virtuaalikoneelle.
