@@ -45,27 +45,27 @@
 
 1. Suorita komento */usr/lib/ssl/misc/CA.pl -newreq* (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
-        a. ”Enter PEM pass phrase”: user66
+        ”Enter PEM pass phrase”: user66
 
-        b. ”Verifying – Enter PEM pass phrase”: user66
+        ”Verifying – Enter PEM pass phrase”: user66
 
-        c. ”Country Name (2 letter code) [AU]”: FI
+        ”Country Name (2 letter code) [AU]”: FI
 
-        d. ”State or Province Name (full name) [Some-State]”: Uusimaa
+        ”State or Province Name (full name) [Some-State]”: Uusimaa
 
-        e. ”Locality Name (eg, city) []”: Kotka
+        ”Locality Name (eg, city) []”: Kotka
 
-        f. ”Organization Name (eg, company) [Internet Widgits Pty Ltd]: DataCenter Oy
+        ”Organization Name (eg, company) [Internet Widgits Pty Ltd]: DataCenter Oy
 
-        g. ”Organizational Unit Name (eg, section) []”: DataCenter Oy
+        ”Organizational Unit Name (eg, section) []”: DataCenter Oy
 
-        h. ”Common Name (eg, server FQDN or Your name []”: 10.0.0.1
+        ”Common Name (eg, server FQDN or Your name []”: 10.0.0.1
 
-        i. ”Email Address []”: datacenter@datacenter.fi
+        ”Email Address []”: datacenter@datacenter.fi
 
-        j. ”A challenge password []: Paina Enter
+        ”A challenge password []: Paina Enter
 
-        k. ”An optional company name []: 89.250.48.10
+        ”An optional company name []: 89.250.48.10
 
 
 6. Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
