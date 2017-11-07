@@ -1,4 +1,4 @@
-### Luodaan harjoitusympäristöön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) virtuaalikoneelle DNS – CA – NTP (Debian)
+#### Luodaan harjoitusympäristöön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) virtuaalikoneelle DNS – CA – NTP (Debian)
 
 1. Suorita sudo apt-get update // ei välttämätön, jos päivitykset on jo asennettu
 
