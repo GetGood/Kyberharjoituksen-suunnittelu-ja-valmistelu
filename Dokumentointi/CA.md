@@ -2,9 +2,9 @@
 
 ###### Virtuaalikone DNS – CA – NTP (Debian):
 
-1. Suorita *sudo apt-get update* // ei välttämätön, jos päivitykset on jo asennettu
+1. Suorita *sudo apt-get update* (ei välttämätön, jos päivitykset on jo asennettu)
 
-2. Suorita *sudo apt-get install openssl* // ei välttämätön, jos paketti on jo asennettu
+2. Suorita *sudo apt-get install openssl* (ei välttämätön, jos paketti on jo asennettu)
 
 3. Seuraavaksi, mene tiedostoon jonne haluat luoda CA:n
 
