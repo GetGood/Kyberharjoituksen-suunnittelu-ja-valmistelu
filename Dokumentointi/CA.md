@@ -6,7 +6,7 @@
 
 2. Suorita *sudo apt-get install openssl* (ei välttämätön, jos paketti on jo asennettu)
 
-3. Seuraavaksi, mene tiedostoon jonne haluat luoda CA:n
+3. Seuraavaksi, mene tiedostoon johon haluat luoda CA:n
 
 4. Seuraavaksi, suorita komento */usr/lib/ssl/misc/CA.pl -newca* (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
