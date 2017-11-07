@@ -103,7 +103,7 @@
         Etsi "cacert.pem" (polku_minne_tuodaan)
         Paina "Open"
 
-5. Selaa selaimella osoitteeseen 10.0.0.1 (pfSense) ja kirjaudu käyttäjätunnuksenlla: admin ja salasanalla: pfsense
+5. Selaa selaimella osoitteeseen *10.0.0.1* (pfSense) ja kirjaudu käyttäjätunnuksella: *admin* ja salasanalla: *pfsense*
 
 6. Sertifikaatin lisääminen (pfSense):
 
@@ -127,4 +127,4 @@
         "SSL Certificate": DataCenter Oy
         "Save"
 
-8. Sivustoon 10.0.0.1 voidaan muodostaan nyt varmettettu yhteys
+8. Sivustoon *10.0.0.1* voidaan muodostaan nyt varmennettu SSL-yhteys
