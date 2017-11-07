@@ -131,4 +131,4 @@
 
 ### Huomioitavaa
 
-Jos avaintiedostoa **newkey.pem** ei saa auki, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: *openssl rsa -in newkey.pem -out newnewkey.pem* ja siirtää tämän jälkeen **newnewkey.pem** halutulle virtuaalikoneelle.
+Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: *openssl rsa -in newkey.pem -out newnewkey.pem* ja siirtää tämän jälkeen **newnewkey.pem** halutulle virtuaalikoneelle.
