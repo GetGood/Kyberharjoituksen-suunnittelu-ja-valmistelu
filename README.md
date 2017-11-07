@@ -1,6 +1,6 @@
 # TTKW0310 Kyberharjoituksen-suunnittelu-ja-valmistelu
 
-## Totetusajankohta
+## Toteutusajankohta
 
 Syksy 2017
 
