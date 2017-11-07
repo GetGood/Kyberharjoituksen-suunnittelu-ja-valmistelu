@@ -1,4 +1,6 @@
-#### Luodaan harjoitusympäristöön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) virtuaalikoneelle DNS – CA – NTP (Debian)
+#### Harjoitusympäristön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) 
+
+###### Virtuaalikone DNS – CA – NTP (Debian):
 
 1. Suorita sudo apt-get update // ei välttämätön, jos päivitykset on jo asennettu
 
@@ -6,32 +8,36 @@
 
 3. Seuraavaksi, mene tiedostoon jonne haluat luoda CA:n
 
-4. Seuraavaksi, suorita komento /usr/lib/ssl/misc/CA.pl -newca (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla taballa:
+4. Seuraavaksi, suorita komento /usr/lib/ssl/misc/CA.pl -newca (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
-        a. ”CA certificate filename (or enter to create)”: Paina Enter
+´´´
 
-        b. ”Enter PEM pass phrase”: ”user66”
+        ”CA certificate filename (or enter to create)”: Paina Enter
 
-        c. ”Verifying – Enter PEM pass phrase”: ”user66”
+        ”Enter PEM pass phrase”: user66
 
-        d. ”Country Name (2 letter code) [AU]”: ”FI”
+        ”Verifying – Enter PEM pass phrase”: user66
 
-        e. ”State or Province Name (full name) [Some-State]”: ”Uusimaa”
+        ”Country Name (2 letter code) [AU]”: FI
 
-        f. ”Locality Name (eg, city) []”: ”Helsinki”
+        ”State or Province Name (full name) [Some-State]”: Uusimaa
 
-        g. ”Organization Name (eg, company) [Internet Widgits Pty Ltd]”: ”CyberCerts Oy”
+        ”Locality Name (eg, city) []”: Helsinki
 
-        h. ”Organizational Unit Name (eg, section) []”: ”CyberCerts Oy”
+        ”Organization Name (eg, company) [Internet Widgits Pty Ltd]”: CyberCerts Oy
 
-        i. ”Common Name (eg, server FQDN or Your name []”: CyberCerts Certification Authority”
+        ”Organizational Unit Name (eg, section) []”: CyberCerts Oy
 
-        j. ”Email Address []”: ”cybercerts@cybercerts.fi”
+        ”Common Name (eg, server FQDN or Your name []”: CyberCerts Certification Authority
 
-        k. ”A challenge password []”: Paina Enter
+        ”Email Address []”: cybercerts@cybercerts.fi
 
-        l. ”An optional company name []”: Paina Enter
+        ”A challenge password []”: Paina Enter
 
-        m. ”Enter pass phrase for ./demoCA/private/cakey.pem”: ”user66”
+        ”An optional company name []”: Paina Enter
+
+        ”Enter pass phrase for ./demoCA/private/cakey.pem”: user66
+        
+´´´
 
 5. Edellinen komento luo kansion demoCA, joka sisältää cacert.pem tiedoston
