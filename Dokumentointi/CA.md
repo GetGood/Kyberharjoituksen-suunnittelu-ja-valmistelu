@@ -1,4 +1,4 @@
-#### Harjoitusympäristön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) 
+#### Harjoitusympäristön varmennusorganisaation ”CyberCerts Certificate Authority” (CA) luominen
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
@@ -39,7 +39,7 @@
 5. Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
 
 
-#### Luodaan sertifikaatti "DataCenter Oy" ja allekirjoitetaan sertifikaatti varmenneorganisaatiolla ”CyberCerts Certificate Authority”
+#### Sertifikaatin "DataCenter Oy" luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
@@ -80,7 +80,7 @@
 
 11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
-### ”DataCenter” sertifikaatin käyttöönotto
+### Sertifikaatin ”DataCenter” käyttöönotto
 
 ###### ws (Debian)
 
