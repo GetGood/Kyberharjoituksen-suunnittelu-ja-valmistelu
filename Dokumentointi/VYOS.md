@@ -91,7 +91,7 @@ system {
 ###### Vyos 2
 
 Internal interface: 31.7.16.1/24  
-Internal interface: 31.7.17.1/24
+Internal interface: 31.7.17.1/24  
 Bridged interface: 20.0.0.2/24  
 Loopback: 3.3.3.3/32  
 
