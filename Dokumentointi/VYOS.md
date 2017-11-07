@@ -91,6 +91,7 @@ system {
 ###### Vyos 2
 
 Internal interface: 31.7.16.1/24  
+Internal interface: 31.7.17.1/24
 Bridged interface: 20.0.0.2/24  
 Loopback: 3.3.3.3/32  
 
@@ -102,6 +103,9 @@ interfaces {
   ethernet eth2 {
     address 20.0.0.1/24
   }
+   ethernet eth3 {
+    address 31.7.17.1/24
+  }
   loopback lo {
     address 3.3.3.3/32
   }
@@ -111,11 +115,13 @@ protocols {
     area 0 {
       network 20.0.0.0/24
       network 31.7.16.0/24
+      network 31.7.17.0/24
     }
     parameters {
       router-id 3.3.3.3
     }
     passive interface eth1
+    passive-interface eth3
     redistribute {
       connected {
         metric-type 2
