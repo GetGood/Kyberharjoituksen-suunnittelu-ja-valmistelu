@@ -1,4 +1,4 @@
-## VYOS OSPF relevantit konfiguraatiot
+## VYOS relevantit konfiguraatiot
 
 ###### Vyos 0
 
@@ -32,6 +32,13 @@ protocols {
       connected {
         metric-type 2
       }
+    }
+  }
+}
+
+system {
+  ntp {
+    server 195.20.4.10
     }
   }
 }
@@ -72,6 +79,13 @@ protocols {
     }
   }
 }
+
+system {
+  ntp {
+    server 195.20.4.10
+    }
+  }
+}
 ```
 
 ###### Vyos 2
@@ -106,6 +120,13 @@ protocols {
       connected {
         metric-type 2
       }
+    }
+  }
+}
+
+system {
+  ntp {
+    server 195.20.4.10
     }
   }
 }
@@ -150,6 +171,13 @@ protocols {
           metric-type 2
         }
       }
+    }
+  }
+}
+
+system {
+  ntp {
+    server 195.20.4.10
     }
   }
 }
