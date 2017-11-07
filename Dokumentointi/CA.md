@@ -10,8 +10,6 @@
 
 4. Seuraavaksi, suorita komento /usr/lib/ssl/misc/CA.pl -newca (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
-´´´
-
         ”CA certificate filename (or enter to create)”: Paina Enter
 
         ”Enter PEM pass phrase”: user66
@@ -37,7 +35,5 @@
         ”An optional company name []”: Paina Enter
 
         ”Enter pass phrase for ./demoCA/private/cakey.pem”: user66
-        
-´´´
 
 5. Edellinen komento luo kansion demoCA, joka sisältää cacert.pem tiedoston
