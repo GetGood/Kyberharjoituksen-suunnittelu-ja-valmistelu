@@ -1,5 +1,5 @@
-# TTKW0310 Kyberharjoituksen-suunnittelu-ja-valmistelu    
-******************************************************
+# TTKW0310 Kyberharjoituksen-suunnittelu-ja-valmistelu
+**
 
 ## Toteutusajankohta
 
