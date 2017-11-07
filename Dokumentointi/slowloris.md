@@ -9,4 +9,4 @@ web-palvelin.
 
 ### Blue teamin reaktio
 
-XXXXXXX
+Blue team luo palomuuriin säännön jolla estää liikenteen spämmäävästä osoitteesta. Ilmoittavat asiasta eteenpäin.
