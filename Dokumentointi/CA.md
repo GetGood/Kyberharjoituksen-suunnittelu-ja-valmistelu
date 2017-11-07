@@ -36,7 +36,7 @@
 
         ”Enter pass phrase for ./demoCA/private/cakey.pem”: user66
 
-5. Edellinen komento luo kansion "demoCA", joka sisältää "cacert.pem" (sertifikaatti) tiedoston
+5. Edellinen komento luo kansion "demoCA", joka sisältää "cacert.pem"-sertifikaattitiedoston
 
 
 #### Luodaan sertifikaatti "DataCenter Oy" ja allekirjoitetaan sertifikaatti varmenneorganisaatiolla ”CyberCerts Certificate Authority”
@@ -78,4 +78,4 @@
 
         ”1 out of 1 certificate request certified, commit? [y/n]”: y
 
-11. Edellinen komento luo ”newcert.pem” (sertifikaatti) tiedoston
+11. Edellinen komento luo ”newcert.pem”-sertifikaattitiedoston
