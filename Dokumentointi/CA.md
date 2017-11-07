@@ -53,8 +53,8 @@
 
         ”State or Province Name (full name) [Some-State]”: Uusimaa
 
-        ”Locality Name (eg, city) []”: Kotka
-
+        ”Locality Name (eg, city) []”: Helsinki
+        
         ”Organization Name (eg, company) [Internet Widgits Pty Ltd]: DataCenter Oy
 
         ”Organizational Unit Name (eg, section) []”: DataCenter Oy
@@ -65,7 +65,7 @@
 
         ”A challenge password []: Paina Enter
 
-        ”An optional company name []: 89.250.48.10
+        ”An optional company name []: 89.x.x.x
 
 
 6. Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
