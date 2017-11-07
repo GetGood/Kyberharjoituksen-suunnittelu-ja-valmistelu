@@ -105,7 +105,7 @@
 
 5. Selaa selaimella osoitteeseen 10.0.0.1 (pfSense) ja kirjaudu käyttäjätunnuksenlla: admin ja salasanalla: pfsense
 
-6. Sertifikaatin lisääminen pfSenseen:
+6. Sertifikaatin lisääminen (pfSense):
 
         Paina "≡"
         Paina "System"
@@ -118,7 +118,7 @@
         "Private key data": Kopioi ja liitä "newkey.pem"-avaimen tiedot
         Paina "Save"
 
-7. Sertifikaatin käyttöönottaminen:
+7. Sertifikaatin käyttöönottaminen (pfSense):
 
         Paina "≡"
         Paina "System"
