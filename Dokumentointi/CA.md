@@ -79,3 +79,52 @@
         ”1 out of 1 certificate request certified, commit? [y/n]”: y
 
 11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
+
+### ”DataCenter” sertifikaatin käyttöönotto
+
+###### ws (Debian)
+
+1. Työasemalla, jolla on yhteys pfSenseen, suorita komento *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem*
+
+2. Työasemalla, jolla on yhteys pfSenseen, suorita komento *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newkey.pem polku_minne_tuodaan_newkey.pem*
+
+3. Työasemalla, jolla on yhteys pfSenseen, suorita komento *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem*
+
+4. CA:n lisääminen selaimeen:
+
+        Avaa Firefox
+        Paina "≡"
+        Paina "Preferences"
+        Paina "Advanced"
+        Paina "Certificates"
+        Paina "View Certificates"
+        Paina "Authorities"
+        Paina "Import..."
+        Etsi "cacert.pem" (polku_minne_tuodaan)
+        Paina "Open"
+
+5. Selaa selaimella osoitteeseen 10.0.0.1 (pfSense) ja kirjaudu käyttäjätunnuksenlla: admin ja salasanalla: pfsense
+
+6. Sertifikaatin lisääminen pfSenseen:
+
+        Paina "≡"
+        Paina "System"
+        Paina "Cert. Manager"
+        Paina "Certificates"
+        Paina "+Add/Sign"
+        Valitse "Import an existing Certificate"
+        "Descriptive Name": DataCenter Oy
+        "Import Certificate": Kopioi ja liitä "newcert.pem"-sertifikaatin tiedot
+        "Private key data": Kopioi ja liitä "newkey.pem"-avaimen tiedot
+        Paina "Save"
+
+7. Sertifikaatin käyttöönottaminen:
+
+        Paina "≡"
+        Paina "System"
+        Paina "Advanced"
+        "Protocol": HTTPS
+        "SSL Certificate": DataCenter Oy
+        "Save"
+
+8. Sivustoon 10.0.0.1 voidaan muodostaan nyt varmettettu yhteys
