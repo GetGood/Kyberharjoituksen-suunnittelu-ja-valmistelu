@@ -1,6 +1,6 @@
 #### Harjoitusympäristön varmennusorganisaatio ”CyberCerts Certificate Authority” (CA) 
 
-###### Virtuaalikone DNS – CA – NTP (Debian):
+###### Virtuaalikone DNS–CA–NTP (Debian):
 
 1. Suorita *sudo apt-get update* (ei välttämätön, jos päivitykset on jo asennettu)
 
@@ -41,7 +41,7 @@
 
 #### Luodaan sertifikaatti "DataCenter Oy" ja allekirjoitetaan sertifikaatti varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
-###### Virtuaalikone DNS – CA – NTP (Debian):
+###### Virtuaalikone DNS–CA–NTP (Debian):
 
 1. Suorita komento */usr/lib/ssl/misc/CA.pl -newreq* (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
