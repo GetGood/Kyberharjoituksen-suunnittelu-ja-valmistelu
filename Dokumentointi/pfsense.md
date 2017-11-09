@@ -11,7 +11,7 @@ Snort GPLv2 Community Rules
 Emerging Threats Open Rules
 ```
 Setup Snort for Alerts only. Blue team will have to make own decision as for how to react.  
-Installe Darkstat, ~~but this might not be used, as it doesn't support the HTTPS GUI, unless configured for proxy or some other way of getting around the limitation.  ~~
+Installe Darkstat, ~~but this might not be used, as it doesn't support the HTTPS GUI, unless configured for proxy or some other way of getting around the limitation.~~
 Dark Stat will be used to monitor network traffic
 
 After updating packets and items that need internet access, switched interfaces to match the exercise topology.  
