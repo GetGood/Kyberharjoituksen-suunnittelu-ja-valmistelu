@@ -1,4 +1,4 @@
-OwnCloud 10 setup
+### OwnCloud 10 käyttöönotto
 
 Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 9 pohjalle. Tätä pilvipalvelinta käytetään kyberharjoituksessa.
 
