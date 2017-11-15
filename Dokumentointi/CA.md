@@ -1,4 +1,4 @@
-#### Harjoitusympäristön varmennusorganisaation ”CyberCerts Certificate Authority” (CA) luominen
+### Harjoitusympäristön varmennusorganisaation ”CyberCerts Certificate Authority” (CA) luominen
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
@@ -38,11 +38,13 @@
 
 5. Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
 
-### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen
+### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen virtuaalikoneeseen
 
 ###### Virtuaalikone ws (Lubuntu):
 
-CA:n lisääminen selaimeen (Firefox):
+1. Suorita komento: *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem* (polku_mistä_tuodaan_cacert.pem = /usr/lib/ssl/misc/demoCA/cacert.pem)
+
+2. CA:n lisääminen selaimeen (Firefox):
 
         Avaa Firefox
         Paina "≡"
@@ -52,11 +54,11 @@ CA:n lisääminen selaimeen (Firefox):
         Paina "View Certificates"
         Paina "Authorities"
         Paina "Import..."
-        Etsi "cacert.pem" (polku_minne_tuodaan)
+        Etsi "cacert.pem" (polku_minne_tuodaan_cacert.pem)
         Paina "Open"
 
 
-#### Sertifikaatin "DataCenter Oy" (pfsense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
+### Sertifikaatin "DataCenter Oy" (pfsense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
@@ -117,7 +119,7 @@ CA:n lisääminen selaimeen (Firefox):
         Paina "View Certificates"
         Paina "Authorities"
         Paina "Import..."
-        Etsi "cacert.pem" (polku_minne_tuodaan)
+        Etsi "cacert.pem" (polku_minne_tuodaan_cacert.pem)
         Paina "Open"
 
 5. Selaa selaimella osoitteeseen **10.0.0.1** (pfSense) ja kirjaudu käyttäjätunnuksella: **admin** ja salasanalla: **pfsense**
@@ -151,7 +153,7 @@ CA:n lisääminen selaimeen (Firefox):
 Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: *openssl rsa -in newkey.pem -out newnewkey.pem* ja siirtää tämän jälkeen **newnewkey.pem** halutulle virtuaalikoneelle.
 
 
-#### Sertifikaatin "DataCenter Oy" (OwnCloud) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
+### Sertifikaatin "DataCenter Oy" (OwnCloud) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
