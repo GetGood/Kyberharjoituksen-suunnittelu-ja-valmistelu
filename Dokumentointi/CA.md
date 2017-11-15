@@ -38,6 +38,23 @@
 
 5. Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
 
+### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen
+
+###### ws:
+
+CA:n lisääminen selaimeen (Firefox):
+
+        Avaa Firefox
+        Paina "≡"
+        Paina "Preferences"
+        Paina "Advanced"
+        Paina "Certificates"
+        Paina "View Certificates"
+        Paina "Authorities"
+        Paina "Import..."
+        Etsi "cacert.pem" (polku_minne_tuodaan)
+        Paina "Open"
+
 
 #### Sertifikaatin "DataCenter Oy" (pfsense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
@@ -90,7 +107,7 @@
 
 3. Työasemalla, jolla on yhteys pfSenseen, suorita komento: *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem*
 
-4. CA:n lisääminen selaimeen:
+4. CA:n lisääminen selaimeen (Firefox):
 
         Avaa Firefox
         Paina "≡"
