@@ -209,13 +209,13 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
         
 5. Suorita komento: *nano /etc/apache2/sites-enabled/default-ssl.conf* ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
 
-Ennen:
-                SSLCertificateFile      /alkuperäinen/polku
-                SSLCertificateKeyFile   /alkuperäinen/polku
+        Ennen:
+                        SSLCertificateFile      /alkuperäinen/polku
+                        SSLCertificateKeyFile   /alkuperäinen/polku
         
-Jälkeen:
-                SSLCertificateFile      polku_minne_tuodaan_newcert.pem
-                SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
+        Jälkeen:
+                        SSLCertificateFile      polku_minne_tuodaan_newcert.pem
+                        SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
 
 6. Suorita komento: *service apache2 restart*
 
