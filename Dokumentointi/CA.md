@@ -40,7 +40,7 @@
 
 ### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen
 
-###### ws:
+###### Virtuaalikone ws (Lubuntu):
 
 CA:n lisääminen selaimeen (Firefox):
 
@@ -99,7 +99,7 @@ CA:n lisääminen selaimeen (Firefox):
 
 ### Sertifikaatin ”DataCenter” käyttöönotto
 
-###### ws (Debian)
+###### Virtuaalikone ws (Lubuntu)
 
 1. Työasemalla, jolla on yhteys pfSenseen, suorita komento: *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem*
 
@@ -196,7 +196,7 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
 
 ### Sertifikaatin ”DataCenter” käyttöönotto
 
-###### OwnCloud (Debian)
+###### Virtuaalikone OwnCloud (Debian)
 
 1. Suorita komento: *scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem*
 
