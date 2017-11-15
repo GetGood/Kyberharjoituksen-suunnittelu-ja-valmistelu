@@ -212,16 +212,16 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
 
         <VirtualHost 10.0.0.11:80>
                 ServerName 10.0.0.11
-                Redirect permanent / https://89.250.48.10/
+                Redirect permanent / https://89.x.x.x/
         </VirtualHost>
         
         <VirtualHost 89.x.x.x:80>
-                ServerName 89.250.48.10
-                Redirect permanent / httos://89.250.48.10/
+                ServerName 89.x.x.x
+                Redirect permanent / httos://89.x.x.x/
         </VirtualHost>
         
         <VirtualHost _default_:443>
-                ServerName 89.250.48.10
+                ServerName 89.x.x.x
         </VirtualHost>
         
 5. Suorita komento: *nano /etc/apache2/sites-enabled/default-ssl.conf* ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
