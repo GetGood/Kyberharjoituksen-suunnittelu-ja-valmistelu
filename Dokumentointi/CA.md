@@ -58,7 +58,7 @@
         Paina "Open"
 
 
-### Sertifikaatin "DataCenter Oy" (pfsense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
+### Sertifikaatin "DataCenter Oy" (pfSense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
@@ -99,7 +99,7 @@
 
 11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
-### Sertifikaatin ”DataCenter” käyttöönotto
+### Sertifikaatin ”DataCenter” (pfSense) käyttöönotto
 
 ###### Virtuaalikone ws (Lubuntu)
 
@@ -196,7 +196,7 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
 11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
 
-### Sertifikaatin ”DataCenter” käyttöönotto
+### Sertifikaatin ”DataCenter” (OwnCloud) käyttöönotto
 
 ###### Virtuaalikone OwnCloud (Debian)
 
