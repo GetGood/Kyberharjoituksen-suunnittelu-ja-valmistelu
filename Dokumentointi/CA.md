@@ -56,6 +56,9 @@
         Paina "Import..."
         Etsi "cacert.pem" (polku_minne_tuodaan_cacert.pem)
         Paina "Open"
+        
+3. Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
+
 
 
 ### Sertifikaatin "DataCenter Oy" (pfSense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
