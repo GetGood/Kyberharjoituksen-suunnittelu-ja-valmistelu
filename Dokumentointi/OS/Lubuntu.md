@@ -47,3 +47,9 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ###### Vaihe 11:
 ![virtualbox_new_lubuntu_step_10](https://user-images.githubusercontent.com/16650292/32909106-56f01ba8-cb0e-11e7-8938-3e2ad9633db8.png)
+
+### Lubuntu VM
+
+###### Vaihe 1:
+
+
