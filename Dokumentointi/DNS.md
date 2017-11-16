@@ -1,5 +1,11 @@
 ### DNS konfiguraatiot
 
+BIND9 asennus
+
+```
+apt-get install bind9
+```
+
 ###### named.conf.options
 
 ```
