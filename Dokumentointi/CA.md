@@ -222,7 +222,7 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
         
         <VirtualHost 89.x.x.x:80>
                 ServerName 89.x.x.x
-                Redirect permanent / httos://89.x.x.x/
+                Redirect permanent / https://89.x.x.x/
         </VirtualHost>
         
         <VirtualHost _default_:443>
