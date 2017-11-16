@@ -3,7 +3,7 @@
 
 ## Toteutusajankohta
 
-Syksy 2017
+Syksy 2017 (09/2017-12/2017)
 
 ## Tietoa
 
