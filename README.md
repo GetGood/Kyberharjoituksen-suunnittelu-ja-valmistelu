@@ -46,5 +46,5 @@ https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master
 
 ## Exploits
 
-*-- Linkki kansioon --*
+https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Exploits
 
