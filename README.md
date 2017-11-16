@@ -47,5 +47,5 @@ https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master
 
 ### Exploits
 
-https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Exploits
+[Exploits](/Dokumentointi/Exploits)
 
