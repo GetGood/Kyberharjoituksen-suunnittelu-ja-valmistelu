@@ -22,23 +22,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS
 
-### DNS
-
--- Linkki kansioon -- 
-
-### NTP
-
--- Linkki kansioon --
-
-### CA
-
--- Linkki kansioon --
-
-### OwnCloud
-
--- Linkki kansioon --
-
-### pfSense
+### Vyos
 
 -- Linkki kansioon --
 
@@ -46,7 +30,15 @@ https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master
 
 -- Linkki kansioon --
 
-### Vyos
+### pfSense
+
+-- Linkki kansioon --
+
+### DNS-NTP-CA
+
+-- Linkki kansioon --
+
+### OwnCloud
 
 -- Linkki kansioon --
 
