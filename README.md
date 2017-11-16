@@ -43,3 +43,8 @@ https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master
 ### Sosiaalinen media
 
 *-- Linkki kansioon --*
+
+## Exploits
+
+*-- Linkki kansioon --*
+
