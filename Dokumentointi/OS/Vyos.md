@@ -34,12 +34,12 @@
 
 ![virtualbox_new_vyos_step_7](https://user-images.githubusercontent.com/16650292/32906192-d3d8307e-cb04-11e7-8009-2133fa870715.png)
 
-###### Huom!
-Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
-
 ###### Vaihe 9:
 
 ![virtualbox_new_vyos_step_8](https://user-images.githubusercontent.com/16650292/32906275-18315f5c-cb05-11e7-8c17-14e4b9b7a9fa.png)
+
+###### Huom!
+Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
 
 ###### Vaihe 10:
 
