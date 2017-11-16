@@ -50,7 +50,8 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 ![virtualbox_new_vyos_step_10](https://user-images.githubusercontent.com/16650292/32906277-186a4ec0-cb05-11e7-9bfd-be6a0a857c7a.png)
 
 
-### Vyos VM
+## Vyos VM
+
 
 ![vyos_asennusohjeet_1](https://user-images.githubusercontent.com/16650292/32906861-ecfc2536-cb06-11e7-9291-425bdae7d3f4.png)
 
