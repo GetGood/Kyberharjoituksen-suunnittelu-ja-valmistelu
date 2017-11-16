@@ -11,9 +11,9 @@ Tämä repositorio sisältää ryhmän R1 harjoitussuunnitelman harjoitusympäri
 
 ### Käytetty virtualisointialusta
 
-Harjoitusympäristön luomiseen R1 käytti Oracle VM VirtualBox Manager virtualisointialustaa. Harjoitusympäristö toteutettiin virtualisoinnilla, koska sen avulla voidaan tehokkaasti mallintaa ympäristö, jossa voidaan testata haluttua skenaariota ja sen toimivuutta.
+Harjoitusympäristön luomiseen R1 käytti *Oracle VM VirtualBox Manager* virtualisointialustaa. Harjoitusympäristö toteutettiin virtualisoinnilla, koska sen avulla voidaan tehokkaasti mallintaa ympäristö, jossa voidaan testata haluttua skenaariota ja sen toimivuutta.
 
-Linkki Oracle VM VirtualBox Manager - lataussivustolle:
+Linkki *Oracle VM VirtualBox Manager* - lataussivustolle:
 
 https://www.virtualbox.org/wiki/Downloads
 
