@@ -1,3 +1,5 @@
+![virtualbox_new](https://user-images.githubusercontent.com/16650292/32906076-89fef3c0-cb04-11e7-9e1c-c0cce28cad3c.PNG)
+
 ![virtualbox_new_lubuntu_step_1](https://user-images.githubusercontent.com/16650292/32909096-5592d35e-cb0e-11e7-8dc1-fe42b1fa3e18.png)
 
 ![virtualbox_new_lubuntu_step_2](https://user-images.githubusercontent.com/16650292/32909097-55b0fd8e-cb0e-11e7-95b8-e9a76625a4b4.png)
