@@ -1,8 +1,7 @@
 ## Käytetyt käyttöjärjestelmät ja asennusohjeet 
 
-#### Tähän kansioon on koottu harjoitusympäristössä käytettyjen käyttöjärjestelmien asennusohjeet
 
-
+Tähän kansioon on koottu harjoitusympäristössä käytettyjen käyttöjärjestelmien asennusohjeet
 
 Linkit:
 
