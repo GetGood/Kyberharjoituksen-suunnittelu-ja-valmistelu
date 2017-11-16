@@ -54,13 +54,40 @@ Levyn kuvaa painaessa avautuu valikko, josta valitaan "Choose Virtual Optical Di
 
 ![vyos_asennusohjeet_1](https://user-images.githubusercontent.com/16650292/32906861-ecfc2536-cb06-11e7-9291-425bdae7d3f4.png)
 
-##### Ohjeet
+##### Ohjeet:
 
 ```
 vyos login: vyos
-
 Password: vyos
-
-vyo
+vyos@vyos:~$ install image
+Would you like to continue? (Yes/No) [Yes]: yes
+Partition (Auto/Parted/Skip) [Auto]: Paina enter
+Install the image on? [sda]: Paina enter
+Continue? (Yes/No) [No]: yes
+How big of a root partition should I create? (1000MB-8589MB) [8589]MB: Paina enter
+What would you like to name this image? [1.1.7]: Paina enter
+Which one should I copy to sda? [/config/config.boot]: Paina enter
+Enter password for user 'vyos': vyos
+Retype password for user 'vyos': vyos
+Which drive should GRUB modify the boot partition on? [sda]: Paina enter
 ```
+Käyttöjärjestelmän asennus onnistui jos saat ilmoituksen:
+
+```
+Done!
+```
+
+Sammuta Vyos VM komennolla:
+
+```
+vyos@vyos:~$ poweroff
+Proceed with poweroff? (Yes/No) [No] yes
+```
+
+### VirtualBox
+
+###### Vaihe 12:
+
+
+
 
