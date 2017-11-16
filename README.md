@@ -18,7 +18,8 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Käyttöjärjestelmien asennus
 
-https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS
+https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS   
+[toimiva linkki](OS/Readme.md)
 
 ### Vyos
 
