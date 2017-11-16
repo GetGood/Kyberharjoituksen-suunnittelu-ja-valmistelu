@@ -9,7 +9,7 @@ Syksy 2017
 
 Tämä repositorio sisältää ryhmän R1 harjoitussuunnitelman harjoitusympäristön teknisen osuuden asennusohjeet sekä ryhmän käyttämät konfiguraatiot.
 
-## Käytetty virtualisointialusta
+### Käytetty virtualisointialusta
 
 Harjoitusympäristön luomiseen R1 käytti Oracle VM VirtualBox Manager virtualisointialustaa. Harjoitusympäristö toteutettiin virtualisoinnilla, koska sen avulla voidaan tehokkaasti mallintaa ympäristö, jossa voidaan testata haluttua skenaariota ja sen toimivuutta.
 
@@ -18,38 +18,38 @@ Linkki Oracle VM VirtualBox Manager - lataussivustolle:
 https://www.virtualbox.org/wiki/Downloads
 
 
-## Käyttöjärjestelmien asennus
+### Käyttöjärjestelmien asennus
 
 -- Linkki kansioon --
 
-## DNS
+### DNS
 
 -- Linkki kansioon -- 
 
-## NTP
+### NTP
 
 -- Linkki kansioon --
 
-## CA
+### CA
 
 -- Linkki kansioon --
 
-## OwnCloud
+### OwnCloud
 
 -- Linkki kansioon --
 
-## pfSense
+### pfSense
 
 -- Linkki kansioon --
 
-## Työasemat
+### Työasemat
 
 -- Linkki kansioon --
 
-## Vyos
+### Vyos
 
 -- Linkki kansioon --
 
-## Sosiaalinen media
+### Sosiaalinen media
 
 -- Linkki kansioon --
