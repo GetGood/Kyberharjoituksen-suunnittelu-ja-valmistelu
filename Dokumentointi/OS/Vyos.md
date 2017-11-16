@@ -35,7 +35,7 @@
 ![virtualbox_new_vyos_step_7](https://user-images.githubusercontent.com/16650292/32906192-d3d8307e-cb04-11e7-8009-2133fa870715.png)
 
 ###### Huom!
-Levyn kuvaa painaessa avautuu valikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
+Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
 
 ###### Vaihe 9:
 
@@ -87,6 +87,10 @@ Proceed with poweroff? (Yes/No) [No] yes
 ### VirtualBox
 
 ###### Vaihe 12:
+
+![virtualbox_new_vyos_step_11](https://user-images.githubusercontent.com/16650292/32908371-033ecc9a-cb0c-11e7-8b32-b2b59685f3a7.png)
+
+Poista levyn näköistiedosto painamalla levyn kuvaa ja aukeavasta pudotusvalikosta "Remove Disk from Virtual Drive" ja tämän jälkeen "OK"
 
 
 
