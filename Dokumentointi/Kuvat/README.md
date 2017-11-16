@@ -1,3 +1,3 @@
 ## Kuvat
 
-Tähän kansioon on koottu koostetusti kuvia harjoitusympäristöstä ja konfiguraatiotodennuksista.
+Tähän kansioon on koottu koostetusti kuvia harjoitusympäristöstä ja konfiguraatiotodennuksista sekä asennusohjeista.
