@@ -33,3 +33,15 @@ Vaihe 7:
 Vaihe 8:
 
 ![virtualbox_new_vyos_step_7](https://user-images.githubusercontent.com/16650292/32906192-d3d8307e-cb04-11e7-8009-2133fa870715.png)
+
+Vaihe 9:
+
+![virtualbox_new_vyos_step_8](https://user-images.githubusercontent.com/16650292/32906275-18315f5c-cb05-11e7-8c17-14e4b9b7a9fa.png)
+
+Vaihe 10:
+
+![virtualbox_new_vyos_step_9](https://user-images.githubusercontent.com/16650292/32906276-184d82b8-cb05-11e7-9610-ea1b51c5284f.png)
+
+Vaihe 11:
+
+![virtualbox_new_vyos_step_10](https://user-images.githubusercontent.com/16650292/32906277-186a4ec0-cb05-11e7-9bfd-be6a0a857c7a.png)
