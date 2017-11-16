@@ -111,6 +111,24 @@ $TTL    604800
 
 ```
 
+###### db.195.20.4
+```
+;
+; BIND reverse data file for 195.20.4.X
+;
+$TTL    604800
+@       IN      SOA     ns.fi. root.fi. (
+                     2017111002         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.fi.
+10      IN      PTR     ns.fi.
+
+```
+
 Jos haluat lisätä uuden osoitteen, lisää ip avaruus trusted alueelle named.conf.optionissa, luo uusi reverse lookup zone
 named.conf.localissa, lisää nimi ja osoite other serversien alle db.fi:ssä ja luo uusi db.X.X.X. Kopioi joku muu db.X.X.X ja
 laita serialin viimeinen numero ykköseksi sekä tee muut tarvittavat muutokset.
