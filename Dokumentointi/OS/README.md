@@ -5,18 +5,10 @@ Tähän kansioon on koottu harjoitusympäristössä käytettyjen käyttöjärjes
 
 Linkit:
 
-    Kali - lataussivustolle:
+Kali - lataussivustolle [tästä.](https://www.kali.org/downloads/)
 
-    https://www.kali.org/downloads/
+Debian 9 - lataussivustolle [tästä.](https://www.debian.org/distrib/netinst)
 
-    Debian 9 - lataussivustolle:
+Lubuntu - lataussivustolle [tästä.](http://lubuntu.me/downloads/)
 
-    https://www.debian.org/distrib/netinst
-
-    Lubuntu - lataussivustolle:
-
-    http://lubuntu.me/downloads/
-
-    Vyos 1.1.8 - lataussivustolle:
-
-    https://downloads.vyos.io/?dir=release/1.1.8
+Vyos 1.1.8 - lataussivustolle [tästä.](https://downloads.vyos.io/?dir=release/1.1.8)
