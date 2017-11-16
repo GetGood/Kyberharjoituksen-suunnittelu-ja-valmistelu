@@ -6,18 +6,18 @@
 
 Linkit:
 
-    Linkki Kali - lataussivustolle:
+    Kali - lataussivustolle:
 
     https://www.kali.org/downloads/
 
-    Linkki Debian 9 - lataussivustolle:
+    Debian 9 - lataussivustolle:
 
     https://www.debian.org/distrib/netinst
 
-    Linkki Lubuntu - lataussivustolle:
+    Lubuntu - lataussivustolle:
 
     http://lubuntu.me/downloads/
 
-    Linkki Vyos 1.1.8 - lataussivustolle:
+    Vyos 1.1.8 - lataussivustolle:
 
     https://downloads.vyos.io/?dir=release/1.1.8
