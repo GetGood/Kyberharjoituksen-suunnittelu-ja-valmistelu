@@ -84,53 +84,49 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ###### Vaihe 9:
 
-![kali_asennusohjeet_9](https://user-images.githubusercontent.com/16650292/32913588-6dc26dc4-cb1b-11e7-956a-7e75a1fc4169.png)
+![kali_asennusohjeet_10](https://user-images.githubusercontent.com/16650292/32913589-6de089f8-cb1b-11e7-8013-ea0343300061.png)
 
 ###### Vaihe 10:
 
-![kali_asennusohjeet_10](https://user-images.githubusercontent.com/16650292/32913589-6de089f8-cb1b-11e7-8013-ea0343300061.png)
+![kali_asennusohjeet_11](https://user-images.githubusercontent.com/16650292/32913590-6dfd790a-cb1b-11e7-9caa-9a1cacc8c7b9.png)
 
 ###### Vaihe 11:
 
-![kali_asennusohjeet_11](https://user-images.githubusercontent.com/16650292/32913590-6dfd790a-cb1b-11e7-9caa-9a1cacc8c7b9.png)
+![kali_asennusohjeet_12](https://user-images.githubusercontent.com/16650292/32913595-72ed1ace-cb1b-11e7-9cfb-c899404f35ff.png)
 
 ###### Vaihe 12:
 
-![kali_asennusohjeet_12](https://user-images.githubusercontent.com/16650292/32913595-72ed1ace-cb1b-11e7-9cfb-c899404f35ff.png)
+![kali_asennusohjeet_13](https://user-images.githubusercontent.com/16650292/32913598-731f208c-cb1b-11e7-84f7-e2d11ed0d3b8.png)
 
 ###### Vaihe 13:
 
-![kali_asennusohjeet_13](https://user-images.githubusercontent.com/16650292/32913598-731f208c-cb1b-11e7-84f7-e2d11ed0d3b8.png)
+![kali_asennusohjeet_14](https://user-images.githubusercontent.com/16650292/32913599-733f9f56-cb1b-11e7-9a02-8031a02744ed.png)
 
 ###### Vaihe 14:
 
-![kali_asennusohjeet_14](https://user-images.githubusercontent.com/16650292/32913599-733f9f56-cb1b-11e7-9a02-8031a02744ed.png)
+![kali_asennusohjeet_15](https://user-images.githubusercontent.com/16650292/32913601-736025e6-cb1b-11e7-90c8-4211c055c4b4.png)
 
 ###### Vaihe 15:
 
-![kali_asennusohjeet_15](https://user-images.githubusercontent.com/16650292/32913601-736025e6-cb1b-11e7-90c8-4211c055c4b4.png)
+![kali_asennusohjeet_16](https://user-images.githubusercontent.com/16650292/32913602-737d90c2-cb1b-11e7-99ad-7eaffa7eceb3.png)
 
 ###### Vaihe 16:
 
-![kali_asennusohjeet_16](https://user-images.githubusercontent.com/16650292/32913602-737d90c2-cb1b-11e7-99ad-7eaffa7eceb3.png)
+![kali_asennusohjeet_17](https://user-images.githubusercontent.com/16650292/32913603-73a1b8ee-cb1b-11e7-974e-6ee853d6cc36.png)
 
 ###### Vaihe 17:
 
-![kali_asennusohjeet_17](https://user-images.githubusercontent.com/16650292/32913603-73a1b8ee-cb1b-11e7-974e-6ee853d6cc36.png)
+![kali_asennusohjeet_18](https://user-images.githubusercontent.com/16650292/32913606-7728e708-cb1b-11e7-931a-4ff6c2c7a9db.png)
 
 ###### Vaihe 18:
 
-![kali_asennusohjeet_18](https://user-images.githubusercontent.com/16650292/32913606-7728e708-cb1b-11e7-931a-4ff6c2c7a9db.png)
+![kali_asennusohjeet_19](https://user-images.githubusercontent.com/16650292/32913607-774836a8-cb1b-11e7-8ba2-2dc825efa099.png)
 
 ###### Vaihe 19:
 
-![kali_asennusohjeet_19](https://user-images.githubusercontent.com/16650292/32913607-774836a8-cb1b-11e7-8ba2-2dc825efa099.png)
-
-###### Vaihe 20:
-
 ![kali_asennusohjeet_20](https://user-images.githubusercontent.com/16650292/32913608-77665ff2-cb1b-11e7-8bfb-19e123ce6e8c.png)
 
-###### Vaihe 21:
+###### Vaihe 20:
 
 ![kali_asennusohjeet_21](https://user-images.githubusercontent.com/16650292/32913609-7786f6a4-cb1b-11e7-966a-983907897ae1.png)
 
