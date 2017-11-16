@@ -3,7 +3,7 @@
 
 Tähän kansioon on koottu harjoitusympäristössä käytettyjen käyttöjärjestelmien asennusohjeet.
 
-##### Käytetyt asennusmediat
+#### Käytetyt asennusmediat
 
 Kali - lataussivustolle [tästä.](https://www.kali.org/downloads/)
 
