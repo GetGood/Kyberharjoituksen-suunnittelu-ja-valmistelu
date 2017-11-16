@@ -39,6 +39,8 @@
 
 ![virtualbox_new_lubuntu_step_8](https://user-images.githubusercontent.com/16650292/32909104-56adac64-cb0e-11e7-84bb-1a7a975c3a75.png)
 
+Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
+
 ###### Vaihe 10:
 
 ![virtualbox_new_lubuntu_step_9](https://user-images.githubusercontent.com/16650292/32909105-56d2f546-cb0e-11e7-81dd-f3dc29047f51.png)
