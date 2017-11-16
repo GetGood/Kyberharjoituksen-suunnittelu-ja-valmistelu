@@ -52,14 +52,15 @@ Levyn kuvaa painaessa avautuu valikko, josta valitaan "Choose Virtual Optical Di
 
 ### Vyos VM
 
-###### Vaihe 1:
-
 ![vyos_asennusohjeet_1](https://user-images.githubusercontent.com/16650292/32906861-ecfc2536-cb06-11e7-9291-425bdae7d3f4.png)
 
-##### Huom!
+##### Ohjeet
 
+´´´
 vyos login: vyos
 
 Password: vyos
 
+vyo
+´´´
 
