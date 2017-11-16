@@ -44,7 +44,7 @@ Asennusohjeet löytyvät [täältä.](/Dokumentointi/OwnCloud)
 
 *-- Linkki kansioon --*
 
-### Exploits
+### Syötteet
 
-Harjoituksessa käytetyt exploitit löytyvät [täältä.](/Dokumentointi/Exploits)
+Harjoituksessa käytetyt syötteet löytyvät [täältä.](/Dokumentointi/Syotteet)
 
