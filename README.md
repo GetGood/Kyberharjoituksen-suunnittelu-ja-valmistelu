@@ -15,12 +15,12 @@ Harjoitusympäristön luomiseen R1 käytti Oracle VM VirtualBox Manager virtuali
 
 Linkki Oracle VM VirtualBox Manager - lataussivustolle:
 
-    https://www.virtualbox.org/wiki/Downloads
+https://www.virtualbox.org/wiki/Downloads
 
 
 ### Käyttöjärjestelmien asennus
 
-    https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS
+https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS
 
 ### DNS
 
