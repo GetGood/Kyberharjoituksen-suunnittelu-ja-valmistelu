@@ -59,7 +59,6 @@ Levyn kuvaa painaessa avautuu valikko, josta valitaan "Choose Virtual Optical Di
 ##### Huom!
 
 vyos login: vyos
-
 Password: vyos
 
 
