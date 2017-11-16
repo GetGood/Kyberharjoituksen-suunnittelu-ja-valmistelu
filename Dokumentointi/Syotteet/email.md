@@ -8,5 +8,7 @@ vääristä ja olla avaamatta haitallisia linkkejä
 
 Blue Team raportoi asiasta, mutta ei aiheuta kiirreellisiä toimenpiteitä, mikäli linkkiä ei avata.
 
+### Kuva sähköpostipalvelusta
+
 
 ![email](sposti.PNG)
