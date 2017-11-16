@@ -7,6 +7,6 @@ Syksy 2017
 
 ## Tietoa
 
-Tämä repositorio sisältää ryhmän 1 ryhmätyön dokemuntointeja ja harjoitusympäristön luomisessa käytettyjä konfiguraatioita.
+Tämä repositorio sisältää ryhmän 1 harjoitussuunnitelman harjoitusympäristön asennusohjeet sekä ryhmän käyttämät konfiguraatiot.
 
 
