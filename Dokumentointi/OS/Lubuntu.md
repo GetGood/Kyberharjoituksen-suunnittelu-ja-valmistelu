@@ -1,4 +1,4 @@
-## Lubuntu OS
+## Lubuntu OS asennusohjeet
 
 ### VirtualBox
 
