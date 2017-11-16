@@ -7,6 +7,6 @@ Syksy 2017
 
 ## Tietoa
 
-Tämä repositorio sisältää ryhmän 1 harjoitussuunnitelman harjoitusympäristön asennusohjeet sekä ryhmän käyttämät konfiguraatiot.
+Tämä repositorio sisältää ryhmän R1 harjoitussuunnitelman harjoitusympäristön teknisen osuuden asennusohjeet sekä ryhmän käyttämät konfiguraatiot.
 
 
