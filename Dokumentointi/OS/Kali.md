@@ -38,6 +38,8 @@
 
 ![virtualbox_new_kali_step_8](https://user-images.githubusercontent.com/16650292/32910631-6f731de8-cb12-11e7-8072-b2dfb7db46b0.png)
 
+Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
+
 ###### Vaihe 10:
 
 ![virtualbox_new_kali_step_9](https://user-images.githubusercontent.com/16650292/32910632-6f97e768-cb12-11e7-83a4-74d9d36bbd1a.png)
