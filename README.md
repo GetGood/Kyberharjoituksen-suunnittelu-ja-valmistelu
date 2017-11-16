@@ -20,7 +20,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Käyttöjärjestelmien asennus
 
-Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/OS/Readme.md
+https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS
 
 ### DNS
 
