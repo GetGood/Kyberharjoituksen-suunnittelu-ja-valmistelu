@@ -48,12 +48,10 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ![virtualbox_new_kali_step_10](https://user-images.githubusercontent.com/16650292/32910620-6e0d8f74-cb12-11e7-96b3-ba15b16b6581.png)
 
-###### Vaihe 12:
-
-![lubuntu_asennusohjeet_11](https://user-images.githubusercontent.com/16650292/32910067-e6ade246-cb10-11e7-93f7-268a6ee07912.png)
-
 ### Kali VM
 
 ###### Vaihe 1:
+
+
 
 
