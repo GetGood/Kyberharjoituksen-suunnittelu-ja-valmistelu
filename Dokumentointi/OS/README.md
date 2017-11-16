@@ -5,8 +5,6 @@ Tähän kansioon on koottu harjoitusympäristössä käytettyjen käyttöjärjes
 
 ### Käytetyt asennusmediat
 
-
-
 Kali - lataussivustolle [tästä.](https://www.kali.org/downloads/)
 
 Debian 9 - lataussivustolle [tästä.](https://www.debian.org/distrib/netinst)
