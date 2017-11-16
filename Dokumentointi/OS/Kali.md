@@ -80,7 +80,7 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ###### Vaihe 8:
 
-![virtualbox_new_kali_step_9](https://user-images.githubusercontent.com/16650292/32910632-6f97e768-cb12-11e7-83a4-74d9d36bbd1a.png)
+![kali_asennusohjeet_9](https://user-images.githubusercontent.com/16650292/32913588-6dc26dc4-cb1b-11e7-956a-7e75a1fc4169.png)
 
 ###### Vaihe 9:
 
