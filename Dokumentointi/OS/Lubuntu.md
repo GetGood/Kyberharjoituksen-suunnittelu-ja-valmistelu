@@ -52,4 +52,45 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ###### Vaihe 1:
 
+![lubuntu_asennusohjeet_1](https://user-images.githubusercontent.com/16650292/32910054-e534d1a4-cb10-11e7-96df-b72de1a4276b.png)
+
+###### Vaihe 2:
+
+![lubuntu_asennusohjeet_2](https://user-images.githubusercontent.com/16650292/32910055-e5582686-cb10-11e7-9b8f-8d9975246ffe.png)
+
+###### Vaihe 3:
+
+![lubuntu_asennusohjeet_3](https://user-images.githubusercontent.com/16650292/32910056-e57aab98-cb10-11e7-9cb6-b2a00866f7e3.png)
+
+###### Vaihe 4:
+
+![lubuntu_asennusohjeet_4](https://user-images.githubusercontent.com/16650292/32910057-e59a00c4-cb10-11e7-8c3b-60e4653e4fe2.png)
+
+###### Vaihe 5:
+
+![lubuntu_asennusohjeet_5](https://user-images.githubusercontent.com/16650292/32910058-e5bbc3bc-cb10-11e7-8d46-72176ab9b306.png)
+
+###### Vaihe 6:
+
+![lubuntu_asennusohjeet_6](https://user-images.githubusercontent.com/16650292/32910059-e5dc229c-cb10-11e7-8d00-d928bb4e76ea.png)
+
+###### Vaihe 7:
+
+![lubuntu_asennusohjeet_7](https://user-images.githubusercontent.com/16650292/32910062-e61ec386-cb10-11e7-85ae-e16cf2c6864f.png)
+
+###### Vaihe 8:
+
+![lubuntu_asennusohjeet_8](https://user-images.githubusercontent.com/16650292/32910063-e644ce28-cb10-11e7-94bb-761667c256f6.png)
+
+###### Vaihe 9:
+
+![lubuntu_asennusohjeet_9](https://user-images.githubusercontent.com/16650292/32910064-e6680316-cb10-11e7-8726-5039eada46f7.png)
+
+###### Vaihe 10:
+
+![lubuntu_asennusohjeet_10](https://user-images.githubusercontent.com/16650292/32910065-e68c8074-cb10-11e7-8059-f5a2a5f6f977.png)
+
+###### Vaihe 11:
+
+![lubuntu_asennusohjeet_11](https://user-images.githubusercontent.com/16650292/32910067-e6ade246-cb10-11e7-93f7-268a6ee07912.png)
 
