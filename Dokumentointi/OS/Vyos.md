@@ -89,7 +89,7 @@ Proceed with poweroff? (Yes/No) [No] yes
 
 ###### Vaihe 12:
 
-![virtualbox_new_vyos_step_11](https://user-images.githubusercontent.com/16650292/32908371-033ecc9a-cb0c-11e7-8b32-b2b59685f3a7.png)
+![virtualbox_new_vyos_step_11](https://user-images.githubusercontent.com/16650292/32908635-c16a3cd6-cb0c-11e7-8b0a-0422dd0b53ef.png)
 
 Poista levyn näköistiedosto painamalla levyn kuvaa ja aukeavasta pudotusvalikosta "Remove Disk from Virtual Drive" ja tämän jälkeen "OK"
 
