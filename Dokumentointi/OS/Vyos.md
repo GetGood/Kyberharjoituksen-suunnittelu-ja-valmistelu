@@ -1,6 +1,6 @@
 ## VyOS asennusohjeet
 
-_### VirtualBox_
+### _VirtualBox_
 
 ###### Vaihe 1:
 
