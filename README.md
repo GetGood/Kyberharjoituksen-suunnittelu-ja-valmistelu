@@ -22,24 +22,24 @@ https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master
 
 ### Vyos
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
 
 ### Työasemat
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
 
 ### pfSense
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
 
 ### DNS-NTP-CA
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
 
 ### OwnCloud
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
 
 ### Sosiaalinen media
 
--- Linkki kansioon --
+*-- Linkki kansioon --*
