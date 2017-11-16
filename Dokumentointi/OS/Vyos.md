@@ -1,3 +1,3 @@
-[[/Dokumentointi/Kuvat/virtualbox_new.PNG)]]
+[/Dokumentointi/Kuvat/virtualbox_new.PNG)]
 
 
