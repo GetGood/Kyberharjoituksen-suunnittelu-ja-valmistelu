@@ -18,7 +18,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Käyttöjärjestelmien asennus
 
-Asennusohjeet löytyvät [täältä].(https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS)
+Asennusohjeet löytyvät [täältä.](https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS)
 
 ### Vyos
 
@@ -46,5 +46,5 @@ Asennusohjeet löytyvät [täältä].(https://github.com/H8545/Kyberharjoituksen
 
 ### Exploits
 
-Harjoituksessa käytetyt hyökkäysmuodot löytyvät [täältä].(/Dokumentointi/Exploits)
+Harjoituksessa käytetyt hyökkäysmuodot löytyvät [täältä.](/Dokumentointi/Exploits)
 
