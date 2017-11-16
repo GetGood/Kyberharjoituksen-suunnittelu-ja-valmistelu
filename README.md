@@ -18,11 +18,11 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Käyttöjärjestelmien asennus
 
-Asennusohjeet löytyvät [täältä.](https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/OS)
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/OS)
 
 ### Vyos
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/Vyos)
 
 ### Työasemat
 
@@ -30,15 +30,15 @@ Asennusohjeet löytyvät [täältä.](https://github.com/H8545/Kyberharjoituksen
 
 ### pfSense
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/pfSense)
 
 ### DNS-NTP-CA
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/DNS-NTP-CA)
 
 ### OwnCloud
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/OwnCloud)
 
 ### Sosiaalinen media
 
@@ -46,5 +46,5 @@ Asennusohjeet löytyvät [täältä.](https://github.com/H8545/Kyberharjoituksen
 
 ### Exploits
 
-Harjoituksessa käytetyt hyökkäysmuodot löytyvät [täältä.](/Dokumentointi/Exploits)
+Harjoituksessa käytetyt exploitit löytyvät [täältä.](/Dokumentointi/Exploits)
 
