@@ -4,11 +4,12 @@
 
 ###### Vaihe 1:
 
-![lubuntu_ip_step1](https://user-images.githubusercontent.com/16650292/32936397-c9b57ae8-cb7c-11e7-9963-40e82229500f.png)
+Avaa terminaali ja suorita komento:
 
-###### Vaihe 2:
-
-![lubuntu_ip_step2](https://user-images.githubusercontent.com/16650292/32936399-c9d4f1fc-cb7c-11e7-9d4e-327b425bc8a6.png)
+```
+sudo -i
+nano /etc/network/interfaces
+```
 
 ###### Vaihe 3:
 
