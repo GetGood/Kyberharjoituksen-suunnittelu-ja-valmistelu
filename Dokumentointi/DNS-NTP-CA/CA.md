@@ -106,11 +106,14 @@
 
 ###### Virtuaalikone ws (Lubuntu)
 
-1. Työasemalla, jolla on yhteys pfSenseen, suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem```
+1. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
+```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem```
 
-2. Työasemalla, jolla on yhteys pfSenseen, suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newkey.pem polku_minne_tuodaan_newkey.pem```
+2. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
+```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newkey.pem polku_minne_tuodaan_newkey.pem```
 
-3. Työasemalla, jolla on yhteys pfSenseen, suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem```
+3. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
+```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem```
 
 4. CA:n lisääminen selaimeen (Firefox):
 
@@ -153,7 +156,8 @@
 
 ### Huomioitavaa
 
-Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: ```openssl rsa -in newkey.pem -out newnewkey.pem``` ja siirtää tämän jälkeen **newnewkey.pem** halutulle virtuaalikoneelle.
+Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: 
+```openssl rsa -in newkey.pem -out newnewkey.pem``` ja siirtää tämän jälkeen **newnewkey.pem** halutulle virtuaalikoneelle.
 
 
 ### Sertifikaatin "DataCenter Oy" (OwnCloud) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
