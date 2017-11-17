@@ -6,9 +6,11 @@
 
 Työasema 1: VirtualBox:iin tehdään seuraavat muutokset:
 
+![lubuntu_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32948013-66d2f840-cba6-11e7-88c1-4f45e844a3d4.png)
 
 Työasema 2: VirtualBox:iin tehdään seuraavat muutokset:
 
+![lubuntu_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32948014-66ee1bac-cba6-11e7-8d03-d7683e92b221.png)
 
 ###### Vaihe 2:
 
