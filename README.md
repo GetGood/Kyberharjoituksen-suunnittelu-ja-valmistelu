@@ -31,7 +31,7 @@ Asennusohjeet löytyvät [täältä.](/Dokumentointi/Vyos)
 
 ### Työasemat
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/Tyoasemat/)
 
 ### pfSense
 
@@ -47,7 +47,7 @@ Asennusohjeet löytyvät [täältä.](/Dokumentointi/OwnCloud)
 
 ### Sosiaalinen media
 
-*-- Linkki kansioon --*
+Asennusohjeet löytyvät [täältä.](/Dokumentointi/SoMe/)
 
 ### Syötteet
 
