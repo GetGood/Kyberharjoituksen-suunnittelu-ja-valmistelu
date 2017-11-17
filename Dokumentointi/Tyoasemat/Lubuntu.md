@@ -46,12 +46,13 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 ###### Vaihe 1:
 
+Suorita komennot:
+
 ```
 scp user@195.20.4.10:/usr/lib/ssl/misc/demoCA/cacert.pem ~
 Are you sure you want to continue connecting (yes/no)? yes
 user@195.20.3.10's password: *****
 ``` 
-![lubuntu_ca_step1](https://user-images.githubusercontent.com/16650292/32941323-18d3fe2c-cb8e-11e7-9fcb-8eb4d6face90.png)
 
 ###### Vaihe 2:
 
