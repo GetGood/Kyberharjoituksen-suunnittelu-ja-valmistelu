@@ -143,3 +143,7 @@ Luodaan domain
 Muokataan oikeuksia
 
 Kopioidaan sivusto uuteen kohteeseen
+
+## Sertifikaatin "DataCenter Oy" asentaminen
+
+
