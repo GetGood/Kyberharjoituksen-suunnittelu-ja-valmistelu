@@ -4,7 +4,9 @@
 
 ###### Vaihe 1:
 
+VirtualBox:iin tehdään seuraavat muutokset:
 
+![www_some_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946671-26986f1c-cba1-11e7-8c64-d16a3c5ceab4.png)
 
 ###### Vaihe 2:
 
