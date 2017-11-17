@@ -10,7 +10,7 @@ VirtualBox:iin tehdään seuraavat muutokset:
 
 ###### Vaihe 2:
 
-Suorita komennot:
+Komentorivilla suorita seuraavat komennot:
 
 ```
 su
