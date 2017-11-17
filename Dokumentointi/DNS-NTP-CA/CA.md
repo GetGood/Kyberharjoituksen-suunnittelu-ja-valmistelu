@@ -139,7 +139,6 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
 
 ### Sertifikaatin "DataCenter Oy" (OwnCloud) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
-
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
 1. Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq```(tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
@@ -179,51 +178,3 @@ Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella 
 
 11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
-
-### Sertifikaatin ”DataCenter” (OwnCloud) käyttöönotto
-
-###### Virtuaalikone OwnCloud (Debian)
-
-1. Suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem```
-
-2. Suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newkey.pem polku_minne_tuodaan_newkey.pem```
-
-3. Suorita komento: ```a2enmod ssl``` (ei välttämätön, jos default_ssl jo luotu)
-
-4. Suorita komento: ```a2ensite default-ssl``` (ei välttämätön, jos default_ssl jo luotu)
-
-5. Suorita komento: ```service apache2 restart``` (ei välttämätön, jos default_ssl jo luotu)
-
-6. Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedot tiedoston loppuun ja tallenna muutokset:
-
-        <VirtualHost 10.0.0.11:80>
-                ServerName 10.0.0.11
-                Redirect permanent / https://89.x.x.x/
-        </VirtualHost>
-        
-        <VirtualHost 89.x.x.x:80>
-                ServerName 89.x.x.x
-                Redirect permanent / https://89.x.x.x/
-        </VirtualHost>
-        
-        <VirtualHost _default_:443>
-                ServerName 89.x.x.x
-        </VirtualHost>
-        
-5. Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
-
-        Ennen:
-                        SSLCertificateFile      /alkuperäinen/polku
-                        SSLCertificateKeyFile   /alkuperäinen/polku
-        
-        Jälkeen:
-                        SSLCertificateFile      polku_minne_tuodaan_newcert.pem
-                        SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
-
-6. Suorita komento: ```service apache2 restart```
-
-7. Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
-
-### Huomioitavaa
-
-Jos tiedostossa **default-ssl.conf** rivi **SSLEngine on** on kommentoitu, poista kommentointi.
