@@ -6,6 +6,7 @@
 
 VirtualBox:iin tehdään seuraavat muutokset:
 
+![ws_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32947049-b17a1184-cba2-11e7-894e-40bab4058c89.png)
 
 
 
