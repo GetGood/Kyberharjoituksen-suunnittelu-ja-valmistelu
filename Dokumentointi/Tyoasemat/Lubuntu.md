@@ -87,5 +87,6 @@ Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trus
 
 ###### Vaihe 4:   
 
+![ca_verification](https://user-images.githubusercontent.com/16650292/32949655-54915ca2-cbac-11e7-891b-b2a5c3a4b35b.png)
 
 Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL-salauksella.
