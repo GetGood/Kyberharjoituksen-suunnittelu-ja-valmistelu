@@ -2,13 +2,25 @@
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
-1. Suorita komento: ```sudo apt-get update``` (ei välttämätön, jos päivitykset on jo asennettu)
+###### Vaihe 1:
 
-2. Suorita komento: ```sudo apt-get install openssl``` (ei välttämätön, jos paketti on jo asennettu)
+Suorita komennot (ei välttämätön, jos paketti ja päivitykset on jo asennettu): 
 
-3. Seuraavaksi, mene tiedostoon johon haluat luoda CA:n
+```
+sudo apt-get update
+sudo apt-get install openssl
+```
 
-4. Seuraavaksi, suorita komento: ```/usr/lib/ssl/misc/CA.pl -newca``` (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
+###### Vaihe 2:
+
+Seuraavaksi, mene tiedostoon johon haluat luoda CA:n ja suorita komento: 
+
+```
+/usr/lib/ssl/misc/CA.pl -newca
+``` 
+
+(tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
+
 
         ”CA certificate filename (or enter to create)”: Paina Enter
 
@@ -35,14 +47,18 @@
         ”An optional company name []”: Paina Enter
 
         ”Enter pass phrase for ./demoCA/private/cakey.pem”: user66
+        
 
-5. Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
+Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
+
 
 ### Sertifikaatin "DataCenter Oy" (pfSense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
-1. Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq``` (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
+###### Vaihe 1:
+
+Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq``` (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
         ”Enter PEM pass phrase”: user66
 
@@ -67,9 +83,11 @@
         ”An optional company name []: Paina Enter
 
 
-6. Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
+Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
 
-7. Pyyntö voidaan allekirjoittaa CA:lla käytäen komentoa: ```/usr/lib/ssl/misc/CA.pl -sign```
+###### Vaihe 2:
+
+Pyyntö voidaan allekirjoittaa CA:lla käytäen komentoa: ```/usr/lib/ssl/misc/CA.pl -sign```
 
         ”Enter pass pharase for ./demoCA/private/cakey.pem”: user66
 
@@ -77,13 +95,15 @@
 
         ”1 out of 1 certificate request certified, commit? [y/n]”: y
 
-11. Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
+Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
 ### Sertifikaatin "DataCenter Oy" (OwnCloud) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
 
-1. Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq```(tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
+###### Vaihe 1:
+
+Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq```(tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
         ”Enter PEM pass phrase”: user66
 
@@ -108,9 +128,11 @@
         ”An optional company name []: Paina Enter
 
 
-6. Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
+Edellinen komento luo tiedostot **newreq.pem** (pyyntö) ja **newkey.pem** (avain)
 
-7. Pyyntö voidaan allekirjoittaa CA:lla käytäen komentoa ```/usr/lib/ssl/misc/CA.pl -sign```
+###### Vaihe 2:
+
+Pyyntö voidaan allekirjoittaa CA:lla käytäen komentoa ```/usr/lib/ssl/misc/CA.pl -sign```
 
         ”Enter pass pharase for ./demoCA/private/cakey.pem”: user66
 
