@@ -40,31 +40,20 @@ Certified with Datacenter certificate
 
 ###### Vaihe 1:
 
-1. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
-```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newcert.pem polku_minne_tuodaan_newcert.pem```
+Työasemalla, jolla on yhteys pfSenseen, suorita komennot:
 
-2. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
-```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_newkey.pem polku_minne_tuodaan_newkey.pem```
+```
+scp user@195.20.4.10:/usr/lib/ssl/misc/pfsense/newcert.pem polku_minne_tuodaan_newcert.pem
+scp user@195.20.4.10:/usr/lib/ssl/misc/pfsense/newkey.pem polku_minne_tuodaan_newkey.pem
+```
 
-3. Työasemalla, jolla on yhteys pfSenseen, suorita komento: 
-```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem```
+###### Vaihe 2:
 
-4. CA:n lisääminen selaimeen (Firefox):
+Selaa selaimella osoitteeseen **10.0.0.1** (pfSense) ja kirjaudu käyttäjätunnuksella: **admin** ja salasanalla: **pfsense**
 
-        Avaa Firefox
-        Paina "≡"
-        Paina "Preferences"
-        Paina "Advanced"
-        Paina "Certificates"
-        Paina "View Certificates"
-        Paina "Authorities"
-        Paina "Import..."
-        Etsi "cacert.pem" (polku_minne_tuodaan_cacert.pem)
-        Paina "Open"
+###### Vaihe 3:
 
-5. Selaa selaimella osoitteeseen **10.0.0.1** (pfSense) ja kirjaudu käyttäjätunnuksella: **admin** ja salasanalla: **pfsense**
-
-6. Sertifikaatin lisääminen (pfSense):
+Sertifikaatin lisääminen (pfSense):
 
         Paina "≡"
         Paina "System"
@@ -76,8 +65,10 @@ Certified with Datacenter certificate
         "Import Certificate": Kopioi ja liitä "newcert.pem"-sertifikaatin tiedot
         "Private key data": Kopioi ja liitä "newkey.pem"-avaimen tiedot
         Paina "Save"
+        
+###### Vaihe 4:
 
-7. Sertifikaatin käyttöönottaminen (pfSense):
+Sertifikaatin käyttöönottaminen (pfSense):
 
         Paina "≡"
         Paina "System"
@@ -86,7 +77,8 @@ Certified with Datacenter certificate
         "SSL Certificate": DataCenter Oy
         "Save"
 
-8. Sivustoon **10.0.0.1** (pfSense) voidaan muodostaan nyt varmennettu SSL-yhteys
+
+Sivustoon **10.0.0.1** (pfSense) voidaan muodostaan nyt varmennettu SSL-yhteys
 
 ### Huomioitavaa
 
