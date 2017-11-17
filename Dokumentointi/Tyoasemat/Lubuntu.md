@@ -40,3 +40,5 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulleet voimaan.
 
+### Varmenneorganisaation lisääminen selaimeen (Työasemat 1&2)
+
