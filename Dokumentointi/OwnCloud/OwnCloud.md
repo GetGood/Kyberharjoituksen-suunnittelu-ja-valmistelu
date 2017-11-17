@@ -27,45 +27,40 @@ Asennetaan Apache web server:
 apt install apache2 à Do you want to continue? [Y/n] Valitse Y
 ```
 
-Apachen käynnistys ja boottaus
+Apachen käynnistys ja boottaus:
 
 ```
 systemctl start apache2
-```
-
-```
 systemctl enable apache2
 ```
 
-MariaDB Server asennus
-
+MariaDB Server asennus:
 ```
 apt install mysql-server à Do you want to continue? [Y/n] Valitse Y
 ```
 
-MariaDB:n käynnistys ja boottaus
-
+MariaDB:n käynnistys ja boottaus:
 ```
 systemctl start mariadb
 ```
 ```
 systemctl enable mariadb
 ```
-Tarkistetaan status
 
+Tarkistetaan status:
 ```
 systemctl status mariadb
 ```
-Secure MariaDB asennus
 
+Secure MariaDB asennus:
 ```
 mysql_secure_installation
 ```
-Asennetaan PHP
+Asennetaan PHP:
 ```
 apt install php php-mysql
 ```
-Tarkistetaan versio
+Tarkistetaan versio:
 ```
 root@debian:~# php --version
 PHP 7.0.19-1 (cli) (built: May 11 2017 14:04:47) ( NTS )
@@ -74,41 +69,43 @@ Ja näin LAMP on asennettu Debian 9:lle.
 ```
 mysql -u root -p
 ```
-Owncloud asennus
+
+###### Owncloud asennus
+
+Suorita komennot:
 ```
 apt install -y apache2 mariadb-server libapache2-mod-php7.0 \
 php7.0-gd php7.0-json php7.0-mysql php7.0-curl \
 php7.0-intl php7.0-mcrypt php-imagick \
 php7.0-zip php7.0-xml php7.0-mbstring
 ```
-Valitaan owncloud versio ks. www.owncloud.org
+Valitaan owncloud versio ks. www.owncloud.org ja ladataan .bz2 tiedosto:
 ```
 cd /tmp
 wget https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2
 ```
-Puretaan tiedosto ja muutetaan oikudet
+Puretaan tiedosto ja muutetaan oikudet:
 ```
 tar -xvf owncloud-10.0.2.tar.bz2
 chown -R www-data:www-data owncloud
 ```
-Siirretään tiedosto
+Siirretään tiedosto:
 ```
 mv owncloud /var/www/html/
 ```
-Apache Web Server konfigurointi
+Apache Web Server konfigurointi:
 
-Tehdään tiedosto
+Tehdään tiedosto:
 ```
 nano /etc/apache2/sites-available/owncloud.conf
 ```
-Minne laitetaan kyseiset tiedot
+Minne laitetaan kyseiset tiedot:
 ```
 alias /owncloud "/var/www/html/owncloud/"
 ```
 nano /var/www/html/owncloud/..
 
     <Directory /var/www/html/owncloud/>
-
     Options +FollowSymlinks
     AllowOverride All
     <IfModule mod_dav.c>
@@ -118,7 +115,7 @@ nano /var/www/html/owncloud/..
     SetEnv HTTP_HOME /var/www/html/owncloud
     </Directory>
 
-Luodaan symlink
+Luodaan symlink:
 
 ```
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
