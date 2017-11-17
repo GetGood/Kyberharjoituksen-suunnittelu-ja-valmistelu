@@ -11,9 +11,19 @@ sudo -i
 nano /etc/network/interfaces
 ```
 
-###### Vaihe 3:
+###### Vaihe 2:
 
-![lubuntu_dns_step2](https://user-images.githubusercontent.com/16650292/32941987-48bf3f8c-cb90-11e7-87ea-0e141cde6ace.png)
+Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+
+        auto enp0s3
+        iface enp0s3 inet static
+                address 31.7.17.10
+                netmask 255.255.255.0
+                network 31.7.17.0
+                broadcast 31.7.17.255
+                gateway 31.7.17.1
+                dns-nameservers 195.20.4.10
+        
 
 ###### Vaihe 4:
 
