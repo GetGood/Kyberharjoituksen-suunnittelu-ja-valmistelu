@@ -14,5 +14,9 @@
 
 ![debian_ip_step3](https://user-images.githubusercontent.com/16650292/32937687-2cfbedda-cb82-11e7-90a1-17f4f9a329a9.png)
 
+Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulleet voimaan.
 
+### WWW-palvelut
+
+###### Vaihe 1:
 
