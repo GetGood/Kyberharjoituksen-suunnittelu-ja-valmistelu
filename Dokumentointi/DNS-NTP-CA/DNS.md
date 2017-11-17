@@ -147,6 +147,9 @@ Uudelleenkäynnistä BIND9
 /etc/init.d/bind9 restart
 ```
 
+Nslookup miltä tahansa työasemalta (johon dns on konfiguroitu oikein) pitäisi nyt onnistua:
+[dns][../Kuvat/dns.png]
+
 Jos haluat lisätä uuden osoitteen, lisää ip avaruus trusted alueelle named.conf.optionissa, luo uusi reverse lookup zone
 named.conf.localissa, lisää nimi ja osoite other serversien alle db.fi:ssä ja luo uusi db.X.X.X. Kopioi joku muu db.X.X.X ja
 laita serialin viimeinen numero ykköseksi sekä tee muut tarvittavat muutokset.
