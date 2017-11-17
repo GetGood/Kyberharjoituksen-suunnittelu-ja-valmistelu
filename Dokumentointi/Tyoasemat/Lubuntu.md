@@ -49,6 +49,7 @@ scp user@195.20.4.10:/usr/lib/ssl/misc/demoCA/cacert.pem ~
 Are you sure you want to continue connecting (yes/no)? yes
 user@195.20.3.10's password: *****
 ``` 
+![lubuntu_ca_step1](https://user-images.githubusercontent.com/16650292/32941323-18d3fe2c-cb8e-11e7-9fcb-8eb4d6face90.png)
 
 ###### Vaihe 2:
 
@@ -74,4 +75,5 @@ Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trus
 ###### Vaihe 4:   
 
 Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL salauksella:
+![lubuntu_ca_step2](https://user-images.githubusercontent.com/16650292/32941325-18f2e8a0-cb8e-11e7-9bbd-69f92bb873b8.png)
 
