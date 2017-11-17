@@ -148,11 +148,11 @@ Kopioidaan sivusto uuteen kohteeseen
 
 ###### Vaihe 1:
 
-Suorita komento: ```scp user@D195.20.4.10:/usr/lib/ssl/misc/datacenter/newcert.pem polku_minne_tuodaan_newcert.pem```
+Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/datacenter/newcert.pem polku_minne_tuodaan_newcert.pem```
 
 ###### Vaihe 2:
 
-Suorita komento: ```scp user@D195.20.4.10:/usr/lib/ssl/misc/datacenter/newkey.pem polku_minne_tuodaan_newkey.pem```
+Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/datacenter/newkey.pem polku_minne_tuodaan_newkey.pem```
 
 ###### Vaihe 3:
 
