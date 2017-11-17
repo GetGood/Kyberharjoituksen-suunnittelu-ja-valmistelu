@@ -83,7 +83,8 @@ php7.0-zip php7.0-xml php7.0-mbstring
 ```
 Valitaan owncloud versio ks. www.owncloud.org
 ```
-cd /tmp wget https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2
+cd /tmp
+wget https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2
 ```
 Puretaan tiedosto ja muutetaan oikudet
 ```
