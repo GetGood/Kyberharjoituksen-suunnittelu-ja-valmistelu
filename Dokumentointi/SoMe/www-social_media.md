@@ -99,6 +99,8 @@ Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 st
 
 ###### Vaihe 10:
 
+![ca_verification_some](https://user-images.githubusercontent.com/16650292/32953437-db101fd2-cbb8-11e7-8ec0-3bf7d52d98de.png)
+
 
 Nyt varmenneorganisaation allekirjoittama sertifikaatti on otettu onnistuneesti käyttöön.
 
