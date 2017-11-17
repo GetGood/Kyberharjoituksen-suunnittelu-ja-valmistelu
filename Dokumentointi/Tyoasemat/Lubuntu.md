@@ -14,16 +14,16 @@ nano /etc/network/interfaces
 ###### Vaihe 2:
 
 Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
-
-        auto enp0s3
-        iface enp0s3 inet static
-                address 31.7.17.10
-                netmask 255.255.255.0
-                network 31.7.17.0
-                broadcast 31.7.17.255
-                gateway 31.7.17.1
-                dns-nameservers 195.20.4.10
-        
+```
+auto enp0s3
+iface enp0s3 inet static
+        address 31.7.17.10
+        netmask 255.255.255.0
+        network 31.7.17.0
+        broadcast 31.7.17.255
+        gateway 31.7.17.1
+        dns-nameservers 195.20.4.10
+```
 
 ###### Vaihe 4:
 
