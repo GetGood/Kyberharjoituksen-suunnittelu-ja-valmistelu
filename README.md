@@ -13,6 +13,9 @@ Harjoitusympäristön luomiseen R1 käytti *Oracle VM VirtualBox Manager* virtua
 
 *Oracle VM VirtualBox Manager* - lataussivustolle [tästä.](https://www.virtualbox.org/wiki/Downloads)
 
+### Harjoitusympäristön topologia
+
+
 
 ### Käyttöjärjestelmien asennus
 
