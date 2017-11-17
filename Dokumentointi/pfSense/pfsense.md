@@ -1,4 +1,15 @@
-## PFsense configuration log
+## pfSense VM
+
+### Verkkoasetukset
+
+###### Vaihe 1:
+
+VirtualBox:iin tehdään seuraavat muutokset:
+
+
+ja
+
+### PFsense configuration log
 
 Started up Pfsense 64 bit BSD with only one bridged interface to install and configure packages needed.
 ```
