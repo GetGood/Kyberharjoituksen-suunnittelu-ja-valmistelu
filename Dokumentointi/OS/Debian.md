@@ -34,6 +34,8 @@
 
 ![virtualbox_new_debian_step_7](https://user-images.githubusercontent.com/16650292/32931947-823ff0c4-cb6f-11e7-9592-2140dc4eed8f.png)
 
+Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Optical Disk File...". Selaa tämän jälkeen levyn näköistiedoston sisältävään kansioon, valitse levyn näköistiedosto ja paina "Avaa".
+
 ###### Vaihe 9:
 
 ![virtualbox_new_debian_step_8](https://user-images.githubusercontent.com/16650292/32931948-82622d74-cb6f-11e7-9db9-d21ff23ac4b1.png)
@@ -45,3 +47,9 @@
 ###### Vaihe 11:
 
 ![virtualbox_new_debian_step_10](https://user-images.githubusercontent.com/16650292/32931950-82a406c2-cb6f-11e7-877d-230897b36b6d.png)
+
+
+### Debian VM
+
+
+
