@@ -1,6 +1,6 @@
 ## Lubuntu VMs
 
-### Verkkoasetukset (Työasema 1)
+### Verkkoasetukset (Työasemat 1 & 2)
 
 ###### Vaihe 1:
 
@@ -13,7 +13,7 @@ nano /etc/network/interfaces
 
 ###### Vaihe 2:
 
-Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+Työasema 1: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
 ```
 auto enp0s3
@@ -26,22 +26,7 @@ iface enp0s3 inet static
         dns-nameservers 195.20.4.10
 ```
 
-Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
-
-### Verkkoasetukset (Työasema 2)
-
-###### Vaihe 1:
-
-Avaa terminaali ja suorita komento:
-
-```
-sudo -i
-nano /etc/network/interfaces
-```
-
-###### Vaihe 2:
-
-Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+Työasema 2: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
 ```
 auto enp0s3
@@ -56,7 +41,8 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
-### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen (Työasemat 1&2)
+
+### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen (Työasemat 1 & 2)
 
 ###### Vaihe 1:
 
