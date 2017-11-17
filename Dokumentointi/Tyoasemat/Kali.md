@@ -1,4 +1,4 @@
-## Lubuntu VMs
+## Kali VMs
 
 ### Verkkoasetukset (Työasema 1)
 
