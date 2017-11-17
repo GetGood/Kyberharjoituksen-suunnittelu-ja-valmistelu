@@ -2,7 +2,7 @@
 
 ### Verkkoasetukset
 
-
+WWW-OwnCloud-palvelin saa verkkoasetuksensa DHCP-palvelimelta (pfSense), jolloin verkkoasetukset päivittyvät automaattisesti virtuaalikoneelle, eikä tällöin vaadi manuaalista konfigurointia.
 
 
 ## OwnCloud 10 asennusohjeet
