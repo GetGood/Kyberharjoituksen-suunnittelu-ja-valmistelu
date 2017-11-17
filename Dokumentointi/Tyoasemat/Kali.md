@@ -6,7 +6,7 @@
 
 VirtualBox:iin tehdään seuraavat muutokset:
 
-
+![kali_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32947332-0a3dba04-cba4-11e7-86fd-7c0151903414.png)
 
 ###### Vaihe 2:
 
@@ -41,6 +41,8 @@ VirtualBox:iin tehdään seuraavat muutokset:
 ###### Vaihe 1:
 
 VirtualBox:iin tehdään seuraavat muutokset:
+
+![kali_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32947333-0a5af218-cba4-11e7-9529-ceab7ddcd744.png)
 
 ###### Vaihe 2:
 
