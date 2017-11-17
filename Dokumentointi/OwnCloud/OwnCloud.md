@@ -4,7 +4,7 @@
 
 ###### Vaihe 1:
 
-VirtualBox:iin seuraavat muutokset:
+VirtualBox:iin tehdään seuraavat muutokset:
 
 ![owncloud_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946843-e13fcc2a-cba1-11e7-9803-77ed4d93879c.png)
 
