@@ -69,7 +69,7 @@ CA:n lisääminen selaimeen (Firefox):
         
 ###### Vaihe 3:    
 
-Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
+Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." Kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
 
 
 ###### Vaihe 4:   
