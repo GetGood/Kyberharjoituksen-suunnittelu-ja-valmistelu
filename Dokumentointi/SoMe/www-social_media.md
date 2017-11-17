@@ -4,7 +4,7 @@
 
 ###### Vaihe 1:
 
-Avaa terminaali ja suorita komennot:
+Suorita komennot:
 
 ```
 su
