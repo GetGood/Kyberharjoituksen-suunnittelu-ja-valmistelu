@@ -144,7 +144,7 @@ Muokataan oikeuksia
 
 Kopioidaan sivusto uuteen kohteeseen
 
-### Sertifikaatin ”DataCenter” (OwnCloud) käyttöönotto
+### Sertifikaatin ”DataCenter Oy” (OwnCloud) käyttöönotto
 
 ###### Vaihe 1:
 
