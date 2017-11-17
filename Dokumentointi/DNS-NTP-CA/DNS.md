@@ -148,7 +148,7 @@ Uudelleenkäynnistä BIND9
 ```
 
 Nslookup miltä tahansa työasemalta (johon dns on konfiguroitu oikein) pitäisi nyt onnistua:   
-![dns][https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/blob/master/Dokumentointi/Kuvat/dns.PNG]
+![dns][https://github.com/H8545/Kyberharjoituksen-suunnittelu-ja-valmistelu/tree/master/Dokumentointi/Kuvat/dns.PNG]
 
 Jos haluat lisätä uuden osoitteen, lisää ip avaruus trusted alueelle named.conf.optionissa, luo uusi reverse lookup zone
 named.conf.localissa, lisää nimi ja osoite other serversien alle db.fi:ssä ja luo uusi db.X.X.X. Kopioi joku muu db.X.X.X ja
