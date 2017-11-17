@@ -12,7 +12,6 @@
 
 ###### Vaihe 3:
 
-![lubuntu_ip_step3](https://user-images.githubusercontent.com/16650292/32936400-c9ef7e3c-cb7c-11e7-94a9-ca152f49abb8.png)
 
 ###### Vaihe 4:
 
@@ -32,7 +31,6 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 ###### Vaihe 3:
 
-![lubuntu_ip_step4](https://user-images.githubusercontent.com/16650292/32936401-ca0abcc4-cb7c-11e7-9828-e61740072d81.png)
 
 ###### Vaihe 4:
 
