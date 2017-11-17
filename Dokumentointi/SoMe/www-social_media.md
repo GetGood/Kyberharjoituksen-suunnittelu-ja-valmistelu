@@ -157,6 +157,15 @@ body{
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
 ```
+###### Vaihe 4:
+
+Suorita komento: ```service apache2 restart```
+
+###### Vaihe 5:
+
+Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
+
+
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
