@@ -2,6 +2,12 @@
 
 ### Verkkoasetukset
 
+###### Vaihe 1:
+
+VirtualBox:iin seuraavat muutokset:
+
+
+
 WWW-OwnCloud-palvelin saa verkkoasetuksensa DHCP-palvelimelta (pfSense), jolloin verkkoasetukset päivittyvät automaattisesti virtuaalikoneelle, eikä tällöin vaadi manuaalista konfigurointia.
 
 
