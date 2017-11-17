@@ -97,6 +97,11 @@ Suorita komento: ```service apache2 restart```
 
 Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
 
+###### Vaihe 10:
+
+
+
+
 ### Huomioitavaa
 
 Jos tiedostossa **default-ssl.conf** rivi **SSLEngine on** on kommentoitu, poista kommentointi.
