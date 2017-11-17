@@ -7,6 +7,13 @@ Syksy 2017 (09/2017-12/2017)
 
 Tämä repositorio sisältää ryhmän R1 harjoitussuunnitelman harjoitusympäristön teknisen osuuden asennusohjeet sekä ryhmän käyttämät konfiguraatiot.
 
+Harjoitusympäristön tarkoituksena on simuloida internettiä niin tarkasti kuin harjoituksen kannalta on tarpeellista. Verkon runkona toimivat 4 Vyos reititintä, jotka reitittävät liikenettä
+päätelaitteiden välillä käyttäen OSPF -protokollaa. Vyos reitittimien väliset verkkoadapterit ovat bridged -tilassa, joka mahdollistaa
+reitittimien toimimisen eri fyysisillä laitteilla, kunhan kyseiset laitteet ovat samassa lähiverkossa.   
+DNS palvelimena toimii BIND9 jota ajetaan Linux Debianilla. Sama kone toimii myös NTP-serverinä. Aika haetaan 
+[mikesin](http://www.mikes.fi/julkinen-ntp-palvelu) stratum-2 palvelimilta. Tätä varten on erikseen konfiguroitu rajapinta, johon
+on staattisesti reititetty mikesin palvelimien osoitteet. Mitään muuta liikennettä ympäristöstä ei lähde internettiin.
+
 ### Käytetty virtualisointialusta
 
 Harjoitusympäristön luomiseen R1 käytti *Oracle VM VirtualBox Manager* virtualisointialustaa. Harjoitusympäristö toteutettiin virtualisoinnilla, koska sen avulla voidaan tehokkaasti mallintaa ympäristö, jossa voidaan testata haluttua skenaariota ja sen toimivuutta.
