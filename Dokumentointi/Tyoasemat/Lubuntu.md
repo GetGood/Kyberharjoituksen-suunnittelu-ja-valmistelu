@@ -32,16 +32,29 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 ###### Vaihe 1:
 
+Avaa terminaali ja suorita komento:
 
+```
+sudo -i
+nano /etc/network/interfaces
+```
 
-![lubuntu_ip_step2](https://user-images.githubusercontent.com/16650292/32936399-c9d4f1fc-cb7c-11e7-9d4e-327b425bc8a6.png)
+###### Vaihe 2:
 
-###### Vaihe 3:
+Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
-![lubuntu_dns_step1](https://user-images.githubusercontent.com/16650292/32941986-48a43296-cb90-11e7-87aa-0b69fce5f63b.png)
+```
+auto enp0s3
+iface enp0s3 inet static
+        address 31.7.16.20
+        netmask 255.255.255.0
+        network 31.7.16.0
+        broadcast 31.7.16.255
+        gateway 31.7.16.1
+        dns-nameservers 195.20.4.10
+```
 
-
-Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulleet voimaan.
+Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
 ### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen (Työasemat 1&2)
 
