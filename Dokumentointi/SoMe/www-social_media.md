@@ -51,7 +51,7 @@ touc /var/www/html/style.css
 
 ###### Vaihe 2:
 
-Suorita komento: ```nano /var/www/html/index.html``` ja lisää tiedostoon seuraavat tiedot.
+Suorita komento: ```nano /var/www/html/index.html``` , lisää seuraavat tiedot ja tallenna tiedosto:
 ```
 <!DOCTYPE html>
 <html>
@@ -87,7 +87,11 @@ Suorita komento: ```nano /var/www/html/index.html``` ja lisää tiedostoon seura
 </body>
 </html>
 ```
+###### Vaihe 3:
 
+Suorita komento: ```nano /var/www/html/style.css``` , lisää seuraavat tiedot ja tallenna tiedosto:
+```
+```
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
