@@ -5,11 +5,11 @@
 WWW-OwnCloud-palvelin saa verkkoasetuksensa DHCP-palvelimelta (pfSense), jolloin verkkoasetukset päivittyvät automaattisesti virtuaalikoneelle, eikä tällöin vaadi manuaalista konfigurointia.
 
 
-## OwnCloud 10 asennusohjeet
+### OwnCloud 10 asennusohjeet
 
 Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 9 pohjalle. Tätä pilvipalvelinta käytetään kyberharjoituksessa.
 
-### Asennuksen pääkohdat
+#### Asennuksen pääkohdat
 
 ```
 - Järjestelmän päivitys
@@ -18,7 +18,7 @@ Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 
 - Owncloudin konfigurointi selaimella
 ```
 
-### Asennus
+#### Asennus
 
 ###### Päivitys
 
