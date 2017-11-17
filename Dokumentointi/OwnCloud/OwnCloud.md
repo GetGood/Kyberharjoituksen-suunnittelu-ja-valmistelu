@@ -185,7 +185,7 @@ Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedo
 
         <VirtualHost 10.0.0.11:80>
                 ServerName 10.0.0.11
-                Redirect permanent / https:www.datacenter.fi/
+                Redirect permanent / https://www.datacenter.fi/
         </VirtualHost>
         
         <VirtualHost 89.x.x.x:80>
