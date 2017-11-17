@@ -20,7 +20,7 @@
 
 ###### Vaihe 5:
 
-![kali_ip_step5](https://user-images.githubusercontent.com/16650292/32936861-a06a94dc-cb7e-11e7-9206-3c6e8ffbee5a.png)
+
 
 ###### Vaihe 6:
 
@@ -28,7 +28,7 @@
 
 ###### Vaihe 7:
 
-![kali_ip_step8](https://user-images.githubusercontent.com/16650292/32936856-9fde59ea-cb7e-11e7-807f-80738a5718cd.png)
+
 
 
 ### Verkkoasetukset (Työasema 2)
@@ -51,7 +51,7 @@
 
 ###### Vaihe 5:
 
-![kali_ip_step6](https://user-images.githubusercontent.com/16650292/32936862-a089881a-cb7e-11e7-9c4f-f8b404f248f6.png)
+
 
 ###### Vaihe 6:
 
@@ -59,4 +59,4 @@
 
 ###### Vaihe 7:
 
-![kali_ip_step10](https://user-images.githubusercontent.com/16650292/32936986-27e5acb2-cb7f-11e7-9009-755ca09a25d7.png)
+
