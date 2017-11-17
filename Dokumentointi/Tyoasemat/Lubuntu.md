@@ -42,7 +42,7 @@ iface enp0s3 inet static
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
 
-### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen selaimeen (Työasemat 1 & 2)
+### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen (Työasemat 1 & 2)
 
 ###### Vaihe 1:
 
