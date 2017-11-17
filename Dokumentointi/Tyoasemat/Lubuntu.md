@@ -12,7 +12,7 @@
 
 ###### Vaihe 3:
 
-![lubuntu_dns_step1](https://user-images.githubusercontent.com/16650292/32941986-48a43296-cb90-11e7-87aa-0b69fce5f63b.png)
+![lubuntu_dns_step2](https://user-images.githubusercontent.com/16650292/32941987-48bf3f8c-cb90-11e7-87ea-0e141cde6ace.png)
 
 ###### Vaihe 4:
 
@@ -32,7 +32,7 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 ###### Vaihe 3:
 
-![lubuntu_dns_step2](https://user-images.githubusercontent.com/16650292/32941987-48bf3f8c-cb90-11e7-87ea-0e141cde6ace.png)
+![lubuntu_dns_step1](https://user-images.githubusercontent.com/16650292/32941986-48a43296-cb90-11e7-87aa-0b69fce5f63b.png)
 
 ###### Vaihe 4:
 
