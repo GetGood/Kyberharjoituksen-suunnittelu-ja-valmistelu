@@ -20,6 +20,7 @@
 
 ###### Vaihe 5:
 
+![kali_dns_step1](https://user-images.githubusercontent.com/16650292/32942382-934310c8-cb91-11e7-9b69-1317b65ac43c.png)
 
 ###### Vaihe 6:
 
@@ -27,7 +28,7 @@
 
 ###### Vaihe 7:
 
-
+![kali_dns_step2](https://user-images.githubusercontent.com/16650292/32942383-935e8dc6-cb91-11e7-86a0-d5867d316bf8.png)
 
 ### Verkkoasetukset (Työasema 2)
 
@@ -49,13 +50,15 @@
 
 ###### Vaihe 5:
 
-
+![kali_dns_step11](https://user-images.githubusercontent.com/16650292/32942384-937a4b10-cb91-11e7-8d67-1e3c00d100a3.png)
 
 ###### Vaihe 6:
 
 ![kali_ip_step9](https://user-images.githubusercontent.com/16650292/32936985-27c93b18-cb7f-11e7-99c1-84d833377285.png)
 
 ###### Vaihe 7:
+
+![kali_dns_step12](https://user-images.githubusercontent.com/16650292/32942381-932735ec-cb91-11e7-8a8c-7ed3ea0bf220.png)
 
 
 
