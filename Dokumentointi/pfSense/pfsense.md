@@ -1,17 +1,5 @@
 ## pfSense VM
 
-### Verkkoasetukset
-
-###### Vaihe 1:
-
-VirtualBox:iin tehdään seuraavat muutokset:
-
-![pfsense_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32948292-69a430ce-cba7-11e7-9da6-5069244eb3f7.png)
-
-ja
-
-![pfsense_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32948293-69c0c0c2-cba7-11e7-87e8-cc2c75a75f59.png)
-
 ### PFsense configuration log
 
 Started up Pfsense 64 bit BSD with only one bridged interface to install and configure packages needed.
@@ -49,6 +37,20 @@ redirected ports 80 and 443 to www/owncloud
 DNS set to use 190.20.4.10. DHCP will distribute this to datacenter computers  
 changed web GUI for HTTPS only  
 Certified with Datacenter certificate
+
+
+### Verkkoasetukset
+
+###### Vaihe 1:
+
+VirtualBox:iin tehdään seuraavat muutokset:
+
+![pfsense_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32948292-69a430ce-cba7-11e7-9da6-5069244eb3f7.png)
+
+ja
+
+![pfsense_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32948293-69c0c0c2-cba7-11e7-87e8-cc2c75a75f59.png)
+
 
 ### Sertifikaatin ”DataCenter” (pfSense) käyttöönotto
 
