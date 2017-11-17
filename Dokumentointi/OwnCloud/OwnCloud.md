@@ -218,6 +218,12 @@ Suorita komento: ```service apache2 restart```
 
 Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
 
+###### Vaihe 10:
+
+![ca_verification](https://user-images.githubusercontent.com/16650292/32949655-54915ca2-cbac-11e7-891b-b2a5c3a4b35b.png)
+
+Nyt varmenneorganisaation allekirjoittama sertifikaatti on otettu onnistuneesti käyttöön.
+
 ### Huomioitavaa
 
 Jos tiedostossa **default-ssl.conf** rivi **SSLEngine on** on kommentoitu, poista kommentointi.
