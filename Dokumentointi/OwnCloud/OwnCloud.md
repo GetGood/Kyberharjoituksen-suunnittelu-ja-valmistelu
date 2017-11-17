@@ -24,7 +24,8 @@ apt update && apt upgrade
 Asennetaan Apache web server:
 
 ```
-apt install apache2 à Do you want to continue? [Y/n] Valitse Y
+apt install apache2
+Do you want to continue? [Y/n] Valitse Y
 ```
 
 Apachen käynnistys ja boottaus:
@@ -36,7 +37,8 @@ systemctl enable apache2
 
 MariaDB Server asennus:
 ```
-apt install mysql-server à Do you want to continue? [Y/n] Valitse Y
+apt install mysql-server
+Do you want to continue? [Y/n] Valitse Y
 ```
 
 MariaDB:n käynnistys ja boottaus:
