@@ -88,7 +88,6 @@ Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trus
 ###### Vaihe 4:   
 
 
-![lubuntu_ca_step2](https://user-images.githubusercontent.com/16650292/32941325-18f2e8a0-cb8e-11e7-9bbd-69f92bb873b8.png)
 
 
 Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL-salauksella.
