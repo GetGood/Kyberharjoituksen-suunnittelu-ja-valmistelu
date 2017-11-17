@@ -38,29 +38,6 @@
 
 5. Edellinen komento luo kansion **demoCA**, joka sisältää **cacert.pem**-sertifikaattitiedoston
 
-### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen virtuaalikoneeseen
-
-###### Virtuaalikone ws (Lubuntu):
-
-1. Suorita komento: ```scp user@DNS-CA-NTP_ip_osoite:polku_mistä_tuodaan_cacert.pem polku_minne_tuodaan_cacert.pem``` (polku_mistä_tuodaan_cacert.pem = /usr/lib/ssl/misc/demoCA/cacert.pem)
-
-2. CA:n lisääminen selaimeen (Firefox):
-
-        Avaa Firefox
-        Paina "≡"
-        Paina "Preferences"
-        Paina "Advanced"
-        Paina "Certificates"
-        Paina "View Certificates"
-        Paina "Authorities"
-        Paina "Import..."
-        Etsi "cacert.pem" (polku_minne_tuodaan_cacert.pem)
-        Paina "Open"
-        
-3. Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
-
-
-
 ### Sertifikaatin "DataCenter Oy" (pfSense) luominen ja allekirjoitus varmenneorganisaatiolla ”CyberCerts Certificate Authority”
 
 ###### Virtuaalikone DNS–CA–NTP (Debian):
