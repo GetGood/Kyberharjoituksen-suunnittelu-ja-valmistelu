@@ -148,6 +148,7 @@ Uudelleenkäynnistä BIND9
 ```
 
 Nslookup miltä tahansa työasemalta (johon dns on konfiguroitu oikein) pitäisi nyt onnistua:   
+
 ![dns](../Kuvat/dns.PNG)
 
 Jos haluat lisätä uuden osoitteen, lisää ip avaruus trusted alueelle named.conf.optionissa, luo uusi reverse lookup zone
