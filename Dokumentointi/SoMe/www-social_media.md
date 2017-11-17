@@ -4,6 +4,10 @@
 
 ###### Vaihe 1:
 
+
+
+###### Vaihe 2:
+
 Suorita komennot:
 
 ```
@@ -12,7 +16,7 @@ Password: ******
 nano /etc/network/interfaces
 ```
 
-###### Vaihe 2:
+###### Vaihe 3:
 
 Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
