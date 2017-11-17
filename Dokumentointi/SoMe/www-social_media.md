@@ -4,35 +4,22 @@
 
 ###### Vaihe 1:
 
-Avaa terminaali ja suorita komento:
+Avaa terminaali ja suorita komennot:
 
 ```
 su
-
+Password: ******
 nano /etc/network/interfaces
 ```
 
 ###### Vaihe 2:
 
-Työasema 1: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
 ```
-auto enp0s3
+allow-hotplug enps03
 iface enp0s3 inet static
-        address 31.7.17.10
-        netmask 255.255.255.0
-        network 31.7.17.0
-        broadcast 31.7.17.255
-        gateway 31.7.17.1
-        dns-nameservers 195.20.4.10
-```
-
-Työasema 2: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
-
-```
-auto enp0s3
-iface enp0s3 inet static
-        address 31.7.16.20
+        address 31.7.16.10
         netmask 255.255.255.0
         network 31.7.16.0
         broadcast 31.7.16.255
