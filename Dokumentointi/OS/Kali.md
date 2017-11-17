@@ -130,4 +130,8 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ![kali_asennusohjeet_21](https://user-images.githubusercontent.com/16650292/32913609-7786f6a4-cb1b-11e7-966a-983907897ae1.png)
 
+###### Huom!
+
+Jos asennus epäonnistuu, lisää vaiheessa X virtuaalikoneen kiintolevyn kokoa. (esim. 10 GB)
+
 
