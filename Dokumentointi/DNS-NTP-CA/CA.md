@@ -13,13 +13,7 @@ sudo apt-get install openssl
 
 ###### Vaihe 2:
 
-Seuraavaksi, mene tiedostoon johon haluat luoda CA:n ja suorita komento: 
-
-```
-/usr/lib/ssl/misc/CA.pl -newca
-``` 
-
-(tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
+Seuraavaksi, mene tiedostoon johon haluat luoda CA:n ja suorita komento: ```/usr/lib/ssl/misc/CA.pl -newca``` (tarvittaessa sudo/root) ja täytä kysytyt kohdat seuraavalla tavalla:
 
 
         ”CA certificate filename (or enter to create)”: Paina Enter
