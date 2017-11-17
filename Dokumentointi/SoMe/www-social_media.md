@@ -35,6 +35,8 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
+### WWW-palveluiden asennus
+
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
 ###### Vaihe 1:
