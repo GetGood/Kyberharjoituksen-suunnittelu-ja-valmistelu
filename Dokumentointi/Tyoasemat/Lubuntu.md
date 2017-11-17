@@ -42,3 +42,31 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 ### Varmenneorganisaation lisääminen selaimeen (Työasemat 1&2)
 
+### Varmenneorganisaation ”CyberCerts Certificate Authority” lisääminen virtuaalikoneeseen
+
+###### Lubuntu VM:
+
+1. Suorita komento:
+```
+scp user@195.20.4.10:/usr/lib/ssl/misc/demoCA/cacert.pem ~
+Are you sure you want to continue connecting (yes/no)? yes
+user@195.20.3.10's password: *****
+``` 
+
+2. CA:n lisääminen selaimeen (Firefox):
+
+        Avaa Firefox
+        Paina "≡"
+        Paina "Preferences"
+        Paina "Advanced"
+        Paina "Certificates"
+        Paina "View Certificates"
+        Paina "Authorities"
+        Paina "Import..."
+        Etsi ja valitse "cacert.pem"
+        Paina "Open"
+        
+3. Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
+
+4. Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL salauksella:
+
