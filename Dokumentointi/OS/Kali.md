@@ -132,6 +132,6 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ###### Huom!
 
-Jos asennus epäonnistuu, lisää vaiheessa X virtuaalikoneen kiintolevyn kokoa. (esim. 10 GB)
+Jos asennus epäonnistuu, lisää vaiheessa 7 virtuaalikoneen kiintolevyn kokoa. (esim. 15 GB)
 
 
