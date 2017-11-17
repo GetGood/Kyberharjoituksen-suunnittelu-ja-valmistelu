@@ -109,7 +109,7 @@ Suorita komento: ```/usr/lib/ssl/misc/CA.pl -newreq```(tarvittaessa sudo/root) j
 
         ”Organizational Unit Name (eg, section) []”: DataCenter Oy
 
-        ”Common Name (eg, server FQDN or Your name []”: 89.x.x.x
+        ”Common Name (eg, server FQDN or Your name []”: www.datacenter.fi
 
         ”Email Address []”: datacenter@datacenter.fi
 
