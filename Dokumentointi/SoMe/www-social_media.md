@@ -1,4 +1,4 @@
-## WWW-Sosiaalinen media VM
+## WWW-Sosiaalinen Media VM
 
 ### Verkkoasetukset
 
