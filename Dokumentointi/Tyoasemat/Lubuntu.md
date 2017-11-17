@@ -4,6 +4,14 @@
 
 ###### Vaihe 1:
 
+Työasema 1: VirtualBox:iin tehdään seuraavat muutokset:
+
+
+Työasema 2: VirtualBox:iin tehdään seuraavat muutokset:
+
+
+###### Vaihe 2:
+
 Avaa terminaali ja suorita komento:
 
 ```
@@ -11,7 +19,7 @@ sudo -i
 nano /etc/network/interfaces
 ```
 
-###### Vaihe 2:
+###### Vaihe 3:
 
 Työasema 1: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
