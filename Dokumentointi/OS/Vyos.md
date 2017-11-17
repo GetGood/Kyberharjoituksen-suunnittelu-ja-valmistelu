@@ -52,9 +52,6 @@ Levyn kuvaa painaessa avautuu pudotusvalikko, josta valitaan "Choose Virtual Opt
 
 ### Vyos VM
 
-
-![vyos_asennusohjeet_1](https://user-images.githubusercontent.com/16650292/32906861-ecfc2536-cb06-11e7-9291-425bdae7d3f4.png)
-
 ##### Ohjeet:
 
 ```
