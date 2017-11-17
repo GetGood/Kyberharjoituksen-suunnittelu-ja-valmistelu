@@ -52,3 +52,11 @@
 ###### Vaihe 5:
 
 ![kali_ip_step6](https://user-images.githubusercontent.com/16650292/32936862-a089881a-cb7e-11e7-9c4f-f8b404f248f6.png)
+
+###### Vaihe 6:
+
+![kali_ip_step9](https://user-images.githubusercontent.com/16650292/32936985-27c93b18-cb7f-11e7-99c1-84d833377285.png)
+
+###### Vaihe 7:
+
+![kali_ip_step10](https://user-images.githubusercontent.com/16650292/32936986-27e5acb2-cb7f-11e7-9009-755ca09a25d7.png)
