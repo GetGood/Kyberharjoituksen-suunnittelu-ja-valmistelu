@@ -4,7 +4,7 @@
 
 ###### Vaihe 1:
 
-Suorita komennot (ei välttämätön, jos paketti ja päivitykset on jo asennettu): 
+Suorita komennot (ei välttämätön, jos päivitykset ja paketti on jo asennettu): 
 
 ```
 sudo apt-get update
