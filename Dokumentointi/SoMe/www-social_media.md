@@ -35,7 +35,59 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
-### WWW-palveluiden asennus
+### WWW-palvelut
+
+SoMe-palvelin vastaa harjoitusympäristössä sosiaalisen median roolista. Palvelimella on omat kotisivut, joiden kautta käyttäjä näkee uusimmat uutiset ja ajankohtaiset päivitykset. Sivun kautta käyttäjä pääsee myös foorumille, jolla simuloidaan harjoitusmaailman SoMea.
+
+###### Vaihe 1:
+
+Suorita komennot: 
+
+```
+rm /var/www/html/index.html
+touch /var/www/html/index.html
+touc /var/www/html/style.css
+```
+
+###### Vaihe 2:
+
+Suorita komento: ```nano /var/www/html/index.html``` ja lisää tiedostoon seuraavat tiedot.
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Koko Suomen Uutiset</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />	
+</head>
+<body>  
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Koko Suomen Uutiset</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Etusivu</a></li>
+				<li><a href="/uutiset.html">Uutiset</a></li>
+				<li><a href="/index.php">Foorumi</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h2>Tervetuloa</h2>
+			<p>
+				Olet saapunut Koko Suomen Uutisten sivuille.<br>
+                                Taalta loydat Suomen ajankohtaisimmat uutiset!
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Koko Suomen Uutiset <a href="/" target="_blank">[(C) SOME]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+```
+
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
