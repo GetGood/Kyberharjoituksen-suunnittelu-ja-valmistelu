@@ -18,6 +18,8 @@
 
 ![lubuntu_ip_step5](https://user-images.githubusercontent.com/16650292/32936402-ca25d86a-cb7c-11e7-8e38-edcba339d57a.png)
 
+Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulleet voimaan.
+
 ### Verkkoasetukset (Työasema 2)
 
 ###### Vaihe 1:
@@ -33,5 +35,8 @@
 ![lubuntu_ip_step4](https://user-images.githubusercontent.com/16650292/32936401-ca0abcc4-cb7c-11e7-9828-e61740072d81.png)
 
 ###### Vaihe 4:
+
 ![lubuntu_ip_step6](https://user-images.githubusercontent.com/16650292/32936403-ca4080c0-cb7c-11e7-9e59-bbe0b24f9c02.png)
+
+Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulleet voimaan.
 
