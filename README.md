@@ -58,5 +58,5 @@ Asennusohjeet löytyvät [täältä.](/Dokumentointi/SoMe/)
 
 ### Syötteet
 
-Harjoituksessa käytetyt syötteet löytyvät [täältä.](/Dokumentointi/Syotteet)
+Harjoitusympäristössä käytetyt syötteet löytyvät [täältä.](/Dokumentointi/Syotteet)
 
