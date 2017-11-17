@@ -6,8 +6,11 @@
 
 VirtualBox:iin tehdään seuraavat muutokset:
 
+![pfsense_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32948292-69a430ce-cba7-11e7-9da6-5069244eb3f7.png)
 
 ja
+
+![pfsense_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32948293-69c0c0c2-cba7-11e7-87e8-cc2c75a75f59.png)
 
 ### PFsense configuration log
 
