@@ -141,22 +141,18 @@ array (
 ```
 ###### Vaihe 4 (WWW-palveluiden konfigurointi):
 
-Tehdään verkkosivut komennolla ```nano /var/www/html/index.html``` ja tallennetaan tiedosto muutoksien jälkeen:
+Tehdään verkkosivujen etusivu komennolla ```nano /var/www/html/index.html``` ja tallennetaan tiedosto muutoksien jälkeen:
 
 ```
-
 <!doctype html>
 <html>
-
 <head>
 <meta charset="UTF-8">
   <title>Datacenter Oy</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-
-<body>
-
-    <header>
+<body> 
+    <header> 
         <h1><a href="index.html">Data<span class="headervari">Center</span></a></h1>
         <h2>Tietosi turvassa</h2>
      </header>
@@ -164,22 +160,22 @@ Tehdään verkkosivut komennolla ```nano /var/www/html/index.html``` ja tallenne
         <ul>
           <li><a href="index.html">Etusivu</a></li>
           <li><a href="owncloud">Siirry palveluun</a></li>
-          <li><a href="palaute.php">Jätä palautetta</a></li>
+          <li><a href="palaute.php">JÃ¤tÃ¤ palautetta</a></li>
         </ul>
       </nav>
     <section>
       <article>
-        <h1>Tietoa yrityksestä</h1>
+        <h1>Tietoa yrityksestÃ¤</h1>
         <h2>Palvelut</h2>
-                        <ul>
-                                <li>Tallennustilaa pilvestä
-                                <li>Mahtavaa asiakaspalvelua
-                                <li>Luotettavaa tietoturvaa tärkeimille tiedoillesi!
-                                <li><a href="owncloud">Siirry palveluun</a>
-                                <p>Yritys on ollut voimassa vuodesta 2016. <br>
-                                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
-                                </p>
-                        </ul>
+			<ul>
+				<li>Tallennustilaa pilvestÃ¤
+				<li>Mahtavaa asiakaspalvelua
+				<li>Luotettavaa tietoturvaa tÃ¤rkeimille tiedoillesi!
+				<li><a href="owncloud">Siirry palveluun</a>
+				<p>Yritys on ollut voimassa vuodesta 2016. <br>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</p>
+			</ul>
       </article>
     </section>
     <footer>
@@ -187,6 +183,117 @@ Tehdään verkkosivut komennolla ```nano /var/www/html/index.html``` ja tallenne
     </footer>
 </body>
 </html>
+```
+
+Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` ja tallennetaan tiedosto muutoksien jälkeen:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Palaute</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<section>
+<article>
+
+<h2>Tähän voit jättää rakentavaa palautetta</h2>
+<div id=container>
+    <?php
+    echo "<h3>Viimeisimmät rakentavat palautteet</h3>";
+
+    foreach (glob("datadir/*.txt") as $filename) {
+        $filet[] = $filename;
+    }
+
+    rsort($filet);
+
+    foreach ($filet as $filename) {
+        echo "<div>";
+        include($filename);
+        echo "</div>\n";
+    }
+
+    ?>
+</div>
+
+<?php
+  $serverpath = dirname($_SERVER[SCRIPT_FILENAME]);
+  $urlpath = dirname($_SERVER[SCRIPT_NAME]);
+  $datapath = "/datadir/";
+  $datadir = "$serverpath" . "$datapath";
+  $urldir = "$urlpath" . "$datapath";
+
+  if(isset($_FILES[myfile][tmp_name])) {
+    tallenna($datadir, $urldir);
+  } else {
+  }
+
+  function tallenna($datadir, $webdir) {
+    global $finaldir;
+    $uploadfile = $datadir . $_FILES[myfile][name];
+    $file_ext = strtolower(end(explode(".", $_FILES[myfile][name])));
+    if (move_uploaded_file($_FILES[myfile][tmp_name], $uploadfile)) {
+      echo "<p>Kopioitiin tiedosto: {$_FILES[myfile][name]}</p>";
+      $finaldir = $webdir .$_FILES[myfile][name];
+    } else {
+      echo "<p>Tiedoston kopioiminen epäonnistui</p>";
+    }
+  }
+
+?>
+
+<div id=container>
+    <?php
+    ?>
+    <h3>Lisää merkintä</h3>
+    <div class="form-box">
+        <form action="tallenna.php" method="get">
+          Merkintä:<br>
+          <textarea cols="30" rows="4" name="merkinta"></textarea><br><br>
+          <input type="submit" name="nappi" value="Tallenna">
+          <br>
+        </form>
+    </div>
+</div>
+</article>
+</section>
+</body>
+</html>
+```
+
+Tehdään verkkosivujen tallennusivu komennolla ```nano /var/www/html/tallenna.php``` ja tallennetaan tiedosto muutoksien jälkeen:
+
+```
+<?php
+  $aikaleima = date("Y-m-d--H-i-s");
+  define("BLOGI_FILE", "datadir/$aikaleima.txt");
+
+// Lisätään viesti
+if(isset($_GET[nappi])) {
+
+  // Luetaan vanhat merkinnät talteen
+  if (!$fp = @fopen(BLOGI_FILE, "w"))
+    {echo "fopen virhe!"; exit();}
+
+  // Valmistellaan merkintä
+  $_GET[merkinta] = (nl2br($_GET[merkinta]));
+
+  $blogimerkinta = <<<BLOGIMERKINTA
+  <p>{$_GET[merkinta]}</p>
+BLOGIMERKINTA;
+  fwrite($fp, $blogimerkinta);
+  fclose($fp);
+}
+
+
+header("Location: http://" . $_SERVER[HTTP_HOST]
+                           . dirname($_SERVER[PHP_SELF]) . '/'
+                           . "palaute.php");
+exit;
+?>
 ```
 
 Tehdään verkkosivuille tyylitiedosto komennolla ```nano /var/www/html/style.css``` ja tallennetaan tiedosto muutoksien jälkeen:
