@@ -96,7 +96,7 @@ mv owncloud /var/www/html/
 Tehdään uusi tiedosto ```nano /etc/apache2/sites-available/owncloud.conf```, lisätään seuraavat tiedot ja tallennetaan:
 
 ```
-Alias /owncloud "/var/www/html/owncloud/
+Alias /owncloud "/var/www/html/owncloud/"
 
 <Directory /var/www/html/owncloud/>
     Options +FollowSymlinks
@@ -117,27 +117,35 @@ Luodaan SymLink:
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
 ```
 
-Konfiguroidaan OwnCloud selaimen kautta
+###### Vaihe 3 (OwnCloud:in konfigurointi selaimen kautta): 
 
-Mennään owncloudin osoitteeseen. http://10.0.0.11/owncloud
+Selaataan OwnCloudin osoitteeseen. http://10.0.0.11/owncloud ja luodaan tunnukset:
 
-Luodaan tunnukset
 
-OwnCloud
 
-Asetetaan lisää domaineja palvelimelle
+###### Vaihe 3 (OwnCloud:in konfigurointi): 
 
-Index.html muokkaus
+Lisätään domaineja palvelimelle komennolla ```nano /var/www/html/owncloud/config/config.php``` ja tallennetaan tiedosto muutoksien jälkeen:
 
-Tästä tiedostosta voit muokata datacentterin html sivustoa katso linkki alhaalta.
+```
+...
+...
+...
+'tusted_domains' =>
+array (
+    0 => 'www.datacenter.fi','89.250.48.10.','10.0.0.11'
+),
+...
+...
+...
+```
+###### Vaihe 4 (WWW-palveluiden konfigurointi):
 
-https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-debian-8
+Tehdään verkkosivut komennolla ```nano /var/www/html/index.html``` ja tallennetaan tiedosto muutoksien jälkeen:
 
-Luodaan domain
 
-Muokataan oikeuksia
 
-Kopioidaan sivusto uuteen kohteeseen
+
 
 ### Verkkoasetukset
 
