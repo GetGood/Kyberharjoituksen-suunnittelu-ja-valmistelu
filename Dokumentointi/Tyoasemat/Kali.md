@@ -95,3 +95,43 @@ VirtualBox:iin tehdään seuraavat muutokset:
 
 ![kali_dns_step12](https://user-images.githubusercontent.com/16650292/32942381-932735ec-cb91-11e7-8a8c-7ed3ea0bf220.png)
 
+
+### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen (Työasemat 1 & 2)
+
+###### Vaihe 1:
+
+Suorita komennot:
+
+```
+scp user@195.20.4.10:/usr/lib/ssl/misc/demoCA/cacert.pem ~
+Are you sure you want to continue connecting (yes/no)? yes
+user@195.20.3.10's password: *****
+``` 
+
+###### Vaihe 2:
+
+CA:n lisääminen selaimeen (Firefox):
+
+        Avaa Firefox
+        Paina "≡"
+        Paina "Preferences"
+        Paina "Advanced"
+        Paina "Certificates"
+        Paina "View Certificates"
+        Paina "Authorities"
+        Paina "Import..."
+        Etsi ja valitse "cacert.pem"
+        Paina "Open"
+        
+        
+###### Vaihe 3:    
+
+Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trust a new Certificate Authority (CA)." kaikki esitetyt kysymykset hyväksytään ja painetaan "OK"
+
+
+###### Vaihe 4:   
+
+![ca_verification](https://user-images.githubusercontent.com/16650292/32949655-54915ca2-cbac-11e7-891b-b2a5c3a4b35b.png)
+
+Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL-salauksella.
+
