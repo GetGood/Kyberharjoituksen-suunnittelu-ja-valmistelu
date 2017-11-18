@@ -72,7 +72,7 @@ php7.0-gd php7.0-json php7.0-mysql php7.0-curl \
 php7.0-intl php7.0-mcrypt php-imagick \
 php7.0-zip php7.0-xml php7.0-mbstring
 ```
-Valitaan OwnCloud versio (ks. www.owncloud.org) ja ladataan .bz2 tiedosto komennoilla:
+Siirrytään kansioon, valitaan OwnCloud versio (ks. www.owncloud.org) ja ladataan .bz2 tiedosto komennoilla:
 
 ```
 cd /tmp
@@ -96,27 +96,27 @@ mv owncloud /var/www/html/
 Tehdään uusi tiedosto ```nano /etc/apache2/sites-available/owncloud.conf```, lisätään seuraavat tiedot ja tallennetaan:
 
 ```
+Alias /owncloud "/var/www/html/owncloud/
+
 <Directory /var/www/html/owncloud/>
     Options +FollowSymlinks
     AllowOverride All
+    
     <IfModule mod_dav.c>
     Dav off
     </IfModule>
+    
     SetEnv HOME /var/www/html/owncloud
     SetEnv HTTP_HOME /var/www/html/owncloud
 </Directory>
 ```
 
-Minne laitetaan kyseiset tiedot:
-```
-Alias /owncloud "/var/www/html/owncloud/"
-```
-
-Luodaan symlink:
+Luodaan SymLink:
 
 ```
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
 ```
+
 Konfiguroidaan OwnCloud selaimen kautta
 
 Mennään owncloudin osoitteeseen. http://10.0.0.11/owncloud
