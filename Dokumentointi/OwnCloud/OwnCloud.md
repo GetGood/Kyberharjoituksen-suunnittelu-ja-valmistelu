@@ -176,7 +176,7 @@ a2ensite default-ssl
 service apache2 restart
 ```
 
-###### Vaihe 6:
+###### Vaihe 4:
 
 Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedot tiedoston loppuun ja tallenna muutokset:
 
@@ -194,7 +194,7 @@ Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedo
                 ServerName 89.x.x.x
         </VirtualHost>
         
-###### Vaihe 7:
+###### Vaihe 5:
 
 Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
 
@@ -207,11 +207,11 @@ Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta
                         SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
 
 
-###### Vaihe 8:
+###### Vaihe 6:
 
 Suorita komento: ```service apache2 restart```
 
-###### Vaihe 10:
+###### Vaihe 7:
 
 ![ca_verification](https://user-images.githubusercontent.com/16650292/32949655-54915ca2-cbac-11e7-891b-b2a5c3a4b35b.png)
 
