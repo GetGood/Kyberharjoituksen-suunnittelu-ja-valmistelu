@@ -2,52 +2,42 @@
 
 ### OwnCloud 10 asennusohjeet
 
-Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 9 pohjalle. Tätä pilvipalvelinta käytetään kyberharjoituksessa.
+Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 9 virtuaalikoneelle.
 
 #### Asennuksen pääkohdat
 
 ```
 - Järjestelmän päivitys
 - LAMP serverin asennus
-- Owncloudin asennus
-- Owncloudin konfigurointi selaimella
+- OwnCloudin asennus
+- OwnCloudin konfigurointi selaimella
 ```
 
-#### Asennus
+#### Palveluiden asennus
 
-###### Päivitys
+###### Vaihe 1 (Päivitys):
+
+Suorita komento:
 
 ```
 apt update && apt upgrade
 ```
 
-###### LAMP-asennus
+###### Vaihe 2 (LAMP-asennus):
 
-Asennetaan Apache web server:
-
+Apache Web Server asennus ja uudelleenkäynnistys komennoilla:
 ```
 apt install apache2
 Do you want to continue? [Y/n] Valitse Y
-```
-
-Apachen käynnistys ja boottaus:
-
-```
 systemctl start apache2
 systemctl enable apache2
 ```
 
-MariaDB Server asennus:
+MariaDB Server asennus ja uudelleenkäynnistys komennoilla:
 ```
 apt install mysql-server
 Do you want to continue? [Y/n] Valitse Y
-```
-
-MariaDB:n käynnistys ja boottaus:
-```
 systemctl start mariadb
-```
-```
 systemctl enable mariadb
 ```
 
@@ -60,21 +50,20 @@ Secure MariaDB asennus:
 ```
 mysql_secure_installation
 ```
-Asennetaan PHP:
+
+Asennetaan PHP, tarkistetaan versio ja määritetään salasana:
 ```
 apt install php php-mysql
-```
-Tarkistetaan versio:
-```
 root@debian:~# php --version
 PHP 7.0.19-1 (cli) (built: May 11 2017 14:04:47) ( NTS )
-```
-Ja näin LAMP on asennettu Debian 9:lle.
-```
 mysql -u root -p
 ```
 
-###### Owncloud asennus
+Ja näin LAMP on asennettu Debian 9:lle.
+
+#### OwnCloud asennus
+
+###### Vaihe 1 (OwnCloud asennus):
 
 Suorita komennot:
 ```
@@ -83,33 +72,31 @@ php7.0-gd php7.0-json php7.0-mysql php7.0-curl \
 php7.0-intl php7.0-mcrypt php-imagick \
 php7.0-zip php7.0-xml php7.0-mbstring
 ```
-Valitaan owncloud versio ks. www.owncloud.org ja ladataan .bz2 tiedosto:
+Valitaan OwnCloud versio (ks. www.owncloud.org) ja ladataan .bz2 tiedosto komennoilla:
+
 ```
 cd /tmp
 wget https://download.owncloud.org/community/owncloud-10.0.2.tar.bz2
 ```
-Puretaan tiedosto ja muutetaan oikudet:
+
+Puretaan tiedosto ja muutetaan oikeudet komennoilla:
+
 ```
 tar -xvf owncloud-10.0.2.tar.bz2
 chown -R www-data:www-data owncloud
 ```
+
 Siirretään tiedosto:
 ```
 mv owncloud /var/www/html/
 ```
-Apache Web Server konfigurointi:
 
-Tehdään tiedosto:
-```
-nano /etc/apache2/sites-available/owncloud.conf
-```
-Minne laitetaan kyseiset tiedot:
-```
-alias /owncloud "/var/www/html/owncloud/"
-```
-nano /var/www/html/owncloud/..
+###### Vaihe 2 (Apache Web Server konfigurointi):
 
-    <Directory /var/www/html/owncloud/>
+Tehdään uusi tiedosto ```nano /etc/apache2/sites-available/owncloud.conf```, lisätään seuraavat tiedot ja tallennetaan:
+
+```
+<Directory /var/www/html/owncloud/>
     Options +FollowSymlinks
     AllowOverride All
     <IfModule mod_dav.c>
@@ -117,16 +104,22 @@ nano /var/www/html/owncloud/..
     </IfModule>
     SetEnv HOME /var/www/html/owncloud
     SetEnv HTTP_HOME /var/www/html/owncloud
-    </Directory>
+</Directory>
+```
+
+Minne laitetaan kyseiset tiedot:
+```
+Alias /owncloud "/var/www/html/owncloud/"
+```
 
 Luodaan symlink:
 
 ```
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
 ```
-Konfiguroidaan owncloud selaimen kautta
+Konfiguroidaan OwnCloud selaimen kautta
 
-Mennään owncloudin osoitteeseen. http://ip.ip.ip.ip/owncloud
+Mennään owncloudin osoitteeseen. http://10.0.0.11/owncloud
 
 Luodaan tunnukset
 
