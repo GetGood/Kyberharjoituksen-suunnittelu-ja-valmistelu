@@ -11,16 +11,24 @@ apt install ntp
 ```
 ###### Vaihe 2:
 
-Suorita komento ```nano /etc/ntp.conf```, muokkaa ja lisää tiedostoon seuraavat tiedot ja tallenna tiedosto:
+Suorita komento ```nano /etc/ntp.conf```, kommentoi ja lisää tiedostoon seuraavat tiedot ja tallenna tiedosto:
 
 ```
 #pool 0.ubuntu.pool.ntp.org iburst
 #pool 1.ubuntu.pool.ntp.org iburst
 #pool 2.ubuntu.pool.ntp.org iburst
 #pool 3.ubuntu.pool.ntp.org iburst
+server 195.20.4.10
+```
 
+###### Vaihe 3:
+
+Suorita uudelleenkäynnistys ja tarkista toimivuus komennoilla:
 
 ```
+systemctl restart ntp
+ntpq -4 -pn
+``` 
 
 ### Verkkoasetukset (Työasemat 1 & 2)
 
