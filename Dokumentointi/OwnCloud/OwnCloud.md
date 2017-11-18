@@ -1,16 +1,5 @@
 ## WWW-OwnCloud
 
-### Verkkoasetukset
-
-###### Vaihe 1:
-
-VirtualBox:iin tehdään seuraavat muutokset:
-
-![owncloud_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946843-e13fcc2a-cba1-11e7-9803-77ed4d93879c.png)
-
-WWW-OwnCloud-palvelin saa verkkoasetuksensa DHCP-palvelimelta (pfSense), jolloin verkkoasetukset päivittyvät automaattisesti virtuaalikoneelle, eikä tällöin vaadi manuaalista konfigurointia.
-
-
 ### OwnCloud 10 asennusohjeet
 
 Tässä ohjeessa kerrotaan kuinka OwnCloud 10 pilvipalvelin on asennettu Debian 9 pohjalle. Tätä pilvipalvelinta käytetään kyberharjoituksessa.
@@ -156,6 +145,16 @@ Luodaan domain
 Muokataan oikeuksia
 
 Kopioidaan sivusto uuteen kohteeseen
+
+### Verkkoasetukset
+
+###### Vaihe 1:
+
+VirtualBox:iin tehdään seuraavat muutokset:
+
+![owncloud_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946843-e13fcc2a-cba1-11e7-9803-77ed4d93879c.png)
+
+WWW-OwnCloud-palvelin saa verkkoasetuksensa DHCP-palvelimelta (pfSense), jolloin verkkoasetukset päivittyvät automaattisesti virtuaalikoneelle, eikä tällöin vaadi manuaalista konfigurointia.
 
 ### Sertifikaatin ”DataCenter Oy” (OwnCloud) käyttöönotto
 
