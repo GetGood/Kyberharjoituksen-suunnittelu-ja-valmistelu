@@ -452,7 +452,7 @@ footer p
 
 Selaamalla osoitteeseen www.datacenter.fi ja www.datacenter.fi/palaute.php nähdään että verkkosivut toimivat:
 
-# KUVIA SIVUISTA
+# KUVIA SIVUISTA TÄHÄN
 
 ### Verkkoasetukset
 
