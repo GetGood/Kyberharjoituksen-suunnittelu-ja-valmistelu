@@ -450,6 +450,8 @@ footer p
   padding: 0;}
 ```
 
+Selaamalla osoitteeseen www.datacenter.fi ja www.datacenter.fi/palaute.php nähdään että verkkosivut toimivat:
+
 ### Verkkoasetukset
 
 ###### Vaihe 1:
