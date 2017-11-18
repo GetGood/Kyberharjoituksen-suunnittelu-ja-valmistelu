@@ -143,8 +143,52 @@ array (
 
 Tehdään verkkosivut komennolla ```nano /var/www/html/index.html``` ja tallennetaan tiedosto muutoksien jälkeen:
 
+```
 
+<!doctype html>
+<html>
 
+<head>
+<meta charset="UTF-8">
+  <title>Datacenter Oy</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html">Data<span class="headervari">Center</span></a></h1>
+        <h2>Tietosi turvassa</h2>
+     </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Etusivu</a></li>
+          <li><a href="owncloud">Siirry palveluun</a></li>
+          <li><a href="palaute.php">Jätä palautetta</a></li>
+        </ul>
+      </nav>
+    <section>
+      <article>
+        <h1>Tietoa yrityksestä</h1>
+        <h2>Palvelut</h2>
+                        <ul>
+                                <li>Tallennustilaa pilvestä
+                                <li>Mahtavaa asiakaspalvelua
+                                <li>Luotettavaa tietoturvaa tärkeimille tiedoillesi!
+                                <li><a href="owncloud">Siirry palveluun</a>
+                                <p>Yritys on ollut voimassa vuodesta 2016. <br>
+                                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                                </p>
+                        </ul>
+      </article>
+    </section>
+    <footer>
+      <p>Datacenter Oy</p>
+    </footer>
+</body>
+</html>
+
+```
 
 
 ### Verkkoasetukset
