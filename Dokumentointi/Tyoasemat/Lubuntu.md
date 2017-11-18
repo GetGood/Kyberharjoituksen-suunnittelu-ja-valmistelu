@@ -1,5 +1,27 @@
 ## Lubuntu VMs
 
+### NTP-synkronointi (Työasemat 1 & 2)
+
+###### Vaihe 1:
+
+Avaa komentorivi ja suorita komennot:
+```
+sudo -i
+apt install ntp
+```
+###### Vaihe 2:
+
+Suorita komento ```nano /etc/ntp.conf```, muokkaa ja lisää tiedostoon seuraavat tiedot ja tallenna tiedosto:
+
+```
+#pool 0.ubuntu.pool.ntp.org iburst
+#pool 1.ubuntu.pool.ntp.org iburst
+#pool 2.ubuntu.pool.ntp.org iburst
+#pool 3.ubuntu.pool.ntp.org iburst
+
+
+```
+
 ### Verkkoasetukset (Työasemat 1 & 2)
 
 ###### Vaihe 1:
@@ -14,7 +36,7 @@ Työasema 2: VirtualBox:iin tehdään seuraavat muutokset:
 
 ###### Vaihe 2:
 
-Avaa terminaali ja suorita komento:
+Avaa komentorivi ja suorita komennot:
 
 ```
 sudo -i
