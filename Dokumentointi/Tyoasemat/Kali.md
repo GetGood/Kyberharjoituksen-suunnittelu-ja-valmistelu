@@ -1,5 +1,28 @@
 ## Kali VMs
 
+### NTP-synkronointi (Työasemat 1 & 2)
+
+###### Vaihe 1:
+
+Avaa komentorivi ja suorita komento ```sudo nano /etc/ntp.conf```, kommentoi ja lisää tiedostoon seuraavat tiedot ja tallenna tiedosto:
+
+```
+#pool 0.debian.pool.ntp.org iburst
+#pool 1.debian.pool.ntp.org iburst
+#pool 2.debian.pool.ntp.org iburst
+#pool 3.debian.pool.ntp.org iburst
+server 195.20.4.10
+```
+
+###### Vaihe 2:
+
+Suorita uudelleenkäynnistys ja tarkista toimivuus komennoilla:
+
+```
+systemctl restart ntp
+ntpq -4 -pn
+``` 
+
 ### Verkkoasetukset (Työasema 1)
 
 ###### Vaihe 1:
