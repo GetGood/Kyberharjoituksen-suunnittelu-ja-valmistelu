@@ -168,15 +168,13 @@ Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/datacenter/newkey.pem
 
 ###### Vaihe 3:
 
-Suorita komento: ```a2enmod ssl``` (ei välttämätön, jos default_ssl jo luotu)
+Suorita komennot (ei välttämätöntä, jos default_ssl jo luotu): 
 
-###### Vaihe 4:
-
-Suorita komento: ```a2ensite default-ssl``` (ei välttämätön, jos default_ssl jo luotu)
-
-###### Vaihe 5:
-
-Suorita komento: ```service apache2 restart``` (ei välttämätön, jos default_ssl jo luotu)
+```
+a2enmod ssl
+a2ensite default-ssl
+service apache2 restart
+```
 
 ###### Vaihe 6:
 
@@ -212,10 +210,6 @@ Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta
 ###### Vaihe 8:
 
 Suorita komento: ```service apache2 restart```
-
-###### Vaihe 9:
-
-Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
 
 ###### Vaihe 10:
 
