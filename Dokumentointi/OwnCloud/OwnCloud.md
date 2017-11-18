@@ -221,8 +221,7 @@ a
 { color: #58D0F2;}
 
 a:hover
-{
-  text-decoration: none;
+{ text-decoration: none;
   color: #A4AA04;}
 
 header, nav, section, footer
@@ -259,11 +258,9 @@ header a:hover .headervari
 { color: #FFF;}
 
 nav
-{ 
-  width: 880px;
+{ width: 880px;
   height: 36px;
-  position: relative;
-}
+  position: relative;}
 
 nav ul
 { float: right;
@@ -277,8 +274,7 @@ nav ul li
   margin: 5px 2px 0 0;}
 
 nav ul li a
-{ 
-font: normal 100% 'trebuchet ms', sans-serif;
+{ font: normal 100% 'trebuchet ms', sans-serif;
   float: left; 
   height: 20px;
   padding: 6px 20px 5px 20px;
@@ -312,15 +308,12 @@ aside ul
   margin: 4px 0 30px 0;}
 
 aside li
-{  list-style-type: circle;
-  padding: 0 0 7px 0; }
+{ list-style-type: circle;
+  padding: 0 0 7px 0;}
 
 aside li a
-{ 
-padding-top: 5px;
-  display: block;
- 
-}
+{ padding-top: 5px;
+  display: block;}
 
 article
 { text-align: left;
@@ -334,7 +327,6 @@ footer
   height: 28px;
   padding: 20px 0 5px 0;
   text-align: center; 
-  
   color: #111;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
