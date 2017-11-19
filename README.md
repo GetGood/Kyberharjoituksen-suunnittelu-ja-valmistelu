@@ -26,7 +26,6 @@ Harjoitusympäristössä on yhteensä 15 virtuaalikonetta, joilla jokaisella on 
 
 ![harjoituksen_topologia_v010_noip](https://user-images.githubusercontent.com/16650292/32935734-0c886860-cb7a-11e7-8ede-2724a242ad9b.png)
 
-![test](https://user-images.githubusercontent.com/16650292/32989248-5dc5a858-cd1b-11e7-8d68-5b872f9b945c.jpg)
 
 
 ## Asennusohjeet
