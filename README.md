@@ -24,7 +24,9 @@ Harjoitusympäristön luomiseen R1 käytti *Oracle VM VirtualBox Manager* virtua
 
 Harjoitusympäristössä on yhteensä 15 virtuaalikonetta, joilla jokaisella on oma rooli.
 
-![harjoituksen_topologia_v010_noip](https://user-images.githubusercontent.com/16650292/32935734-0c886860-cb7a-11e7-8ede-2724a242ad9b.png)
+
+![harjoituksen_topologia_v010_git](https://user-images.githubusercontent.com/16650292/32989272-c3db3770-cd1b-11e7-994f-ad8e7cd2cef7.png)
+
 
 
 
