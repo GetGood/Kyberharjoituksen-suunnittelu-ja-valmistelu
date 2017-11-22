@@ -36,7 +36,8 @@ def writeComment():
     call(["curl", "-k", stringval])
 
 def sendPing():
-    call(["ping", "www.datacenter.fi", "-c 5"])
+    pingamount = str(randint(2,7))
+    call(["ping", "www.datacenter.fi", "-c", pingamount])
 
 def curlPage():
     site = "https://www.datacenter.fi/tallenna.php"
