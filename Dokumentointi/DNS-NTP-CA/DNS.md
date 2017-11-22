@@ -13,6 +13,7 @@ acl "trusted" {
         31.7.16.0/24;
         195.20.4.0/24;
         89.250.48.0/24;
+        37.47.255.0/24;
 };
 
 options {
@@ -54,6 +55,11 @@ zone "48.250.89.in-addr.arpa" {
         notify no;
         file "/etc/bind/db.89.250.48";
 };
+
+zone "37.47.255.in-addr.arpa" {
+        type master;
+        notify no;
+        file "/etc/bind/db.37.47.255"
 ```
 
 ###### db.fi
@@ -77,6 +83,7 @@ ns      IN      A       195.20.4.10
 ;other servers
 www.some.fi.    IN      A       31.7.16.10
 www.datacenter.fi.      IN      A       89.250.48.10
+www.datacentre.fi.      IN      A       37.47.255.10
 
 ```
 
@@ -132,6 +139,24 @@ $TTL    604800
 ;
 @       IN      NS      ns.fi.
 10      IN      PTR     ns.fi.
+
+```
+
+###### db.37.47.255
+```
+;
+; BIND reverse data file for 37.47.255.X
+;
+$TTL    604800
+@       IN      SOA     ns.fi. root.fi. (
+                     2017111001         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.fi.
+10      IN      PTR     www.datacentre.fi.
 
 ```
 
