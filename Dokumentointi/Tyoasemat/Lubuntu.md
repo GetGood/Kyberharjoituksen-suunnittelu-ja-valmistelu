@@ -57,7 +57,7 @@ nano /etc/network/interfaces
 
 ###### Vaihe 3:
 
-Työasema 1: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+Työasema X: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
 ```
 auto enp0s3
@@ -70,7 +70,7 @@ iface enp0s3 inet static
         dns-nameservers 195.20.4.10
 ```
 
-Työasema 2: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
+Työasema Y: Lisää tiedostoon seuraavat tiedot ja tallenna tiedosto muutoksien jälkeen:
 
 ```
 auto enp0s3
@@ -85,6 +85,7 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
+Työasemat Z ja W: Työasemat saavat verkkoasetuksensa DHCP-palvelimelta (pfSense), joten työasemien verkkoasetuksien manuaalista konfiguraatiota ei tarvitse suorittaa. Työasemien IP-osoite jaetaan poolista, joka kattaa seuraavat osoitteet: 10.0.0.x-10.0.0.y.
 
 ### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen (Työasemat 1 & 2)
 
