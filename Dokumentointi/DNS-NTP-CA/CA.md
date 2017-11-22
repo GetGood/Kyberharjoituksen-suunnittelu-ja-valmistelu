@@ -175,3 +175,8 @@ Pyyntö voidaan allekirjoittaa CA:lla käytäen komentoa ```/usr/lib/ssl/misc/CA
 
 Edellinen komento luo **newcert.pem**-sertifikaattitiedoston
 
+### Huomioitavaa
+
+Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: 
+```openssl rsa -in newkey.pem -out newkey.pem``` ja siirtää tämän jälkeen **newkey.pem** halutulle virtuaalikoneelle.
+
