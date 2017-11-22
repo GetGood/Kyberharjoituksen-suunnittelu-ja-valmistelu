@@ -30,7 +30,7 @@ systemctl restart ntp
 ntpq -4 -pn
 ``` 
 
-### Verkkoasetukset (Työasemat X,Y,Z,W)
+### Verkkoasetukset
 
 ###### Vaihe 1:
 
@@ -87,7 +87,7 @@ Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tu
 
 Työasemat Z ja W: Työasemat saavat verkkoasetuksensa DHCP-palvelimelta (pfSense), joten työasemien verkkoasetuksien manuaalista konfiguraatiota ei tarvitse suorittaa. Työasemien IP-osoite jaetaan poolista, joka kattaa seuraavat osoitteet: 10.0.0.x-10.0.0.y.
 
-### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen (Työasemat 1 & 2)
+### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen
 
 ###### Vaihe 1:
 
