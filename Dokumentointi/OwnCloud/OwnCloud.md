@@ -185,7 +185,7 @@ Tehdään verkkosivujen etusivu komennolla ```nano /var/www/html/index.html``` j
 </html>
 ```
 
-Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä: [palaute]( Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/Syotteet/palaute_puppu_ohje.md ) Tiedoston sisältö: [palaute.php](palaute/palaute.php)
+Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä: [palaute]( ../Syotteet/palaute_puppu_ohje.md ) Tiedoston sisältö: [palaute.php](palaute/palaute.php)
 
 tallenna.php ```nano /var/www/html/tallenna.php``` sisällöllä: [tallenna.php](palaute/tallenna.php)
 
@@ -196,7 +196,7 @@ style.css ```nano /var/www/html/style.css``` sisällöllä: [style.css](palaute/
 Selaamalla osoitteeseen www.datacenter(.)fi ja www.datacenter(.)fi/palaute.php nähdään että verkkosivut toimivat:
 
 # KUVIA SIVUISTA TÄHÄN
-Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
+Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( ../Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
 ```
 mkdir /var/www/html/email/datadir
 
