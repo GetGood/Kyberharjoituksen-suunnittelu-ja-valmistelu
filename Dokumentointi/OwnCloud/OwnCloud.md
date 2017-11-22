@@ -197,9 +197,9 @@ Selaamalla osoitteeseen www.datacenter(.)fi ja www.datacenter(.)fi/palaute.php n
 
 # KUVIA SIVUISTA TÄHÄN
 Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( ../Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
+
 ```
 mkdir /var/www/html/email/datadir
-
 ```
 Tämän jälkeen kyseiseen email kansioon lisätään seuraavat PHP tiedostot:
 index.php ```nano /var/www/html/email/index.php``` sisällöllä: [index.php](email/index.php)  
