@@ -182,10 +182,11 @@ Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/some/newkey.pem polku
 
 Suorita komennot (ei välttämätöntä, jos default_ssl jo luotu): 
 
-```a2enmod ssl
+```
+a2enmod ssl
 a2ensite default-ssl
 service apache2 restart
-``` 
+```
 
 ###### Vaihe 4:
 
