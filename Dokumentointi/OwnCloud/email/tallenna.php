@@ -11,7 +11,7 @@ if(isset($_GET[nappi])) {
     {echo "fopen virhe!"; exit();}
  
   // Valmistellaan merkintä
-  $_GET[merkinta] = strip_tags(nl2br($_GET['merkinta']));
+  $_GET[merkinta] = strip_tags(nl2br($_GET['merkinta']), '<a>');
  
   $blogimerkinta = <<<BLOGIMERKINTA
   <div id="posti">
