@@ -30,17 +30,21 @@ systemctl restart ntp
 ntpq -4 -pn
 ``` 
 
-### Verkkoasetukset (Työasemat 1 & 2)
+### Verkkoasetukset (Työasemat X,Y,Z,W)
 
 ###### Vaihe 1:
 
-Työasema 1: VirtualBox:iin tehdään seuraavat muutokset:
+Työasema X: VirtualBox:iin tehdään seuraavat muutokset:
 
 ![lubuntu_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32948013-66d2f840-cba6-11e7-88c1-4f45e844a3d4.png)
 
-Työasema 2: VirtualBox:iin tehdään seuraavat muutokset:
+Työasema Y: VirtualBox:iin tehdään seuraavat muutokset:
 
 ![lubuntu_virtualbox_step2](https://user-images.githubusercontent.com/16650292/32948014-66ee1bac-cba6-11e7-8d03-d7683e92b221.png)
+
+Työasemiin Z ja W: VirtualBox:iin tehdään seuraavat muutokset:
+
+![ws_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32947049-b17a1184-cba2-11e7-894e-40bab4058c89.png)
 
 ###### Vaihe 2:
 
