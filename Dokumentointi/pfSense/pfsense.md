@@ -96,7 +96,4 @@ Sertifikaatin käyttöönottaminen (pfSense):
 
 Sivustoon **10.0.0.1** (pfSense) voidaan muodostaan nyt varmennettu SSL-yhteys
 
-### Huomioitavaa
 
-Jos avaintiedosto **newkey.pem** ei aukea, voi sen DNS-CA-NTP-virtuaalikoneella aukaista käyttämällä komentoa: 
-```openssl rsa -in newkey.pem -out newkey.pem``` ja siirtää tämän jälkeen **newkey.pem** halutulle virtuaalikoneelle.
