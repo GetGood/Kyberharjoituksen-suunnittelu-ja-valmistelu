@@ -1,42 +1,37 @@
 ## pfSense VM
 
-### PFsense configuration log
+### pfSense Konfiguraatio
 
-Started up Pfsense 64 bit BSD with only one bridged interface to install and configure packages needed.
+Asennettiin pfSense 64-bittinen BSD ainoastaan yhdellä sillatulla adapterilla jota käytettiin tarvittavien pakettien asentamiseen
 ```
-Installed SNORT ISD package pfSense-pkg-snort-3.2.9.5_2
-Installed Dark stat pfSense-pkg-darkstat: 3.1.3_4
+Asennettu SNORT ISD paketti pfSense-pkg-snort-3.2.9.5_2
+Asennettu darkstat pfSense-pkg-darkstat: 3.1.3_4
 ```
-Downloaded and updated following rulesets for Snort:
+Ladattiin ja asennettiin seuraavat säännöt Snort IDS:ään
 ```
 Snort GPLv2 Community Rules
 Emerging Threats Open Rules
 ```
-Setup Snort for Alerts only. Blue team will have to make own decision as for how to react.  
-Installe Darkstat, ~~but this might not be used, as it doesn't support the HTTPS GUI, unless configured for proxy or some other way of getting around the limitation.~~
-Dark Stat will be used to monitor network traffic
+Konfiguroitiin Snort antamaan pelkkiä varoituksia. Blue teamin on tehtävä omia päätökisä mitä tehdä varoituksien ilmaantuessa  
+Asennettiin darkstat, darkstattia käytetään liikenteen tarkkailuun ulkoverkosta sisäverkkoon
 
-After updating packets and items that need internet access, switched interfaces to match the exercise topology.  
+Kun paketit mitkä vaativat internet yhteyttä asentamiseen oli asennettu, vaihdettiin rajapinnat seuraaviksi:  
 
 ### interfaces  
 ```
 WAN -> em0 -> v4: 89.250.48.10/24  
 Lan -> em1 -> v4: 10.0.0.1/24  
 ```
-
-The Wan is the public IP for datacenter, Lan is the internal network  
-Lan uses DHCP to give addresses and DNS for Datacenter workstations  
+WAN on yrityksen julkinen IP osoite ja Lan sisäisen verkon oletusyhdysskäytävä. Sisäverkkoon jaetaan DHCP:llä IP osoitteet sekä DNS palvelin. Sisäverkon IP osoitteiden alue on 10.0.0.20->10.0.0.50. osoitteet 10-20 on varattu staattisesti määritetyille osoitteille
 ```
 DHCP range 10.0.0.20 -> 10.0.0.50. 
 Static ip 10.0.0.11 for Owncloud + www-server  
 Range 10.0.0.10-20 can be used for other static leases if needed  
 ```
-### Other settings  
+### Muut asetukset
 
-redirected ports 80 and 443 to www/owncloud  
-DNS set to use 190.20.4.10. DHCP will distribute this to datacenter computers  
-changed web GUI for HTTPS only  
-Certified with Datacenter certificate
+Ohjattiin portit 80 ja 443 Owncloud- palvelimeen
+DNS asetettiin käyttämään palvelinta osoitteesta 190.20.4.10. DHCP jakaa tämän palvelimen sisäverkon koneille. vaihdettiin graafinen web- käyttöliittymä käyttämään SSL-salattua yhteyttä joka sertifikoidaan Datacenter Oy:n sertifikaatilla.
 
 
 ### Verkkoasetukset
@@ -95,5 +90,16 @@ Sertifikaatin käyttöönottaminen (pfSense):
 
 
 Sivustoon **10.0.0.1** (pfSense) voidaan muodostaan nyt varmennettu SSL-yhteys
+
+##### Split DNS
+
+Sisäverkosta ei päässyt Owncloud- palvelimeen käyttäen domain nimeä, vaan pfSense antoi varoituksen: 
+Potential DNS rebound attack detected.
+```
+By default, pfSense does not redirect internally connected devices to reach forwarded ports and 1:1 NAT on WAN interfaces. If a client is trying to reach a service on port 80 or 443 (or the port a web interface is using if it has been changed), the connection will hit the web interface and they will be presented with a certificate error if the GUI is running HTTPS, and a DNS rebinding error since it's an unrecognized hostname
+```
+Tämän korjaamiseksi vaihdoimme: Register DHCP static mappings in DNS forwarder päälle
+
+
 
 
