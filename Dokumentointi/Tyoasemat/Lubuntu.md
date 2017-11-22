@@ -85,7 +85,7 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
-Työasemat Z ja W: Työasemat saavat verkkoasetuksensa DHCP-palvelimelta (pfSense), joten työasemien verkkoasetuksien manuaalista konfiguraatiota ei tarvitse suorittaa. Työasemien IP-osoite jaetaan poolista, joka kattaa seuraavat osoitteet: 10.0.0.x-10.0.0.y.
+Työasemat Z ja W: Työasemat saavat verkkoasetuksensa DHCP-palvelimelta (pfSense), joten työasemien verkkoasetuksien manuaalista konfiguraatiota ei tarvitse suorittaa. DHCP-palvelin jakaa työasemien IP-osoitteet "poolista", joka kattaa seuraavat osoitteet: 10.0.0.20-10.0.0.50.
 
 ### Varmenneorganisaation "CyberCerts CA” lisääminen selaimeen
 
