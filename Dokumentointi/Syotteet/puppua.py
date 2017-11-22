@@ -1,8 +1,26 @@
 # coding=utf-8
 from __future__ import print_function
 import time
+import socket
+import sys
 from subprocess import call
 from random import randint
+
+# We need to check if we are in the test environment before launching any attacks
+
+print "checking if you are in the practise environment"
+try:
+    test = socket.gethostbyname('www.datacentre.fi')
+except:
+    print "failed to resolve, you might not be in the practise environment"
+    print "exiting"
+    sys.exit()
+if test != "37.47.255.10":
+    print "www.datacentre.fi didn't resolve to the right address, you might not"
+    print "be in the test environment"
+    sys.exit()
+    
+print "success!"
 
 lauseet = ["Erittäin+hieno+ja+turvallinen+saitti,+kiitos+teille+tästä",
 "Hahaa+olen+spam+monsteri+spammi+poika+pistää+XDDDD",
