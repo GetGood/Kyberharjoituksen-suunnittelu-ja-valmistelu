@@ -185,24 +185,28 @@ Tehdään verkkosivujen etusivu komennolla ```nano /var/www/html/index.html``` j
 </html>
 ```
 
-Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä. Tiedoston sisältö:
+Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä: [palaute]( Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/Syotteet/palaute_puppu_ohje.md ) Tiedoston sisältö: [palaute.php](palaute/palaute.php)
 
-Tehdään verkkosivujen tallennusivu komennolla ```nano /var/www/html/tallenna.php``` ja tallennetaan tiedosto muutoksien jälkeen:
+tallenna.php ```nano /var/www/html/tallenna.php``` sisällöllä: [tallenna.php](palaute/tallenna.php)
 
-Tehdään verkkosivuille tyylitiedosto komennolla ```nano /var/www/html/style.css``` ja tallennetaan tiedosto muutoksien jälkeen:
+style.css ```nano /var/www/html/style.css``` sisällöllä: [style.css](palaute/style.css)
 
 
 
 Selaamalla osoitteeseen www.datacenter(.)fi ja www.datacenter(.)fi/palaute.php nähdään että verkkosivut toimivat:
 
 # KUVIA SIVUISTA TÄHÄN
-Lisätään sähköpostipalvelu yritykselle. Ensin luodaan kansio sähköpostille
+Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
 ```
 mkdir /var/www/html/email/datadir
 
 ```
 Tämän jälkeen kyseiseen email kansioon lisätään seuraavat PHP tiedostot:
-
+index.php ```nano /var/www/html/email/index.php``` sisällöllä: [index.php](email/index.php)  
+login.php ```nano /var/www/html/email/login.php``` sisällöllä: [login.php](email/login.php)  
+logout.php ```nano /var/www/html/email/logout.php``` sisällöllä: [logout.php](email/logout.php)  
+tallenna.php ```nano /var/www/html/email/tallenna.php``` sisällöllä: [tallenna.php](email/tallenna.php)  
+style.css ```nano /var/www/html/email/style.css``` sisällöllä: [style.css](email/style.css)  
 
 
 ### Verkkoasetukset
