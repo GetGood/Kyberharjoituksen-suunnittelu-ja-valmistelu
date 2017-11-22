@@ -1,6 +1,6 @@
 ## Lubuntu VMs
 
-### NTP-synkronointi (Työasemat 1 & 2)
+### NTP-synkronointi
 
 ###### Vaihe 1:
 
