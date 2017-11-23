@@ -23,7 +23,7 @@ todettu toimivaksi Lubuntu -työasemalla.
 
 Ajetaan näin:
 ```
-python puppua.py
+sudo python puppua.py
 ```
 
 Paranneltavaa:
