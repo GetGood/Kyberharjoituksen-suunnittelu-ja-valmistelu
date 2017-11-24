@@ -186,7 +186,7 @@ Jälkeen:
 	auto enp0s3 inet dhcp
 	
 
-Muutosten jälkeen tallenna tiedosto ja sammuta virtuaalikone.Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
+Muutosten jälkeen tallenna tiedosto ja sammuta virtuaalikone. Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
 
 ![some_virtualbox_adapter](https://user-images.githubusercontent.com/16650292/33211337-c46d9796-d126-11e7-864d-651a9958b758.png)
 
@@ -234,6 +234,9 @@ mysql -u root -p
 	mysql> FLUSH PRIVILEGES;
 
 	mysql> quit;
+	
+
+###### Vaihe 4:
 	
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
