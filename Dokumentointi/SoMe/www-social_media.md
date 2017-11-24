@@ -205,7 +205,7 @@ unzip phpBB-3.1.2.zip
 cp -R phpBB3/* /var/www/html/
 ```
 
-Komentojen suorittamisen jälkeen palaa muuttamaan "Huomioitavaa!"-kohdassa tehdyt verkkoasetukset takaisin harjoitusympäristöön. (Tarvittaessa löydät ohjeet: Tämän dokumentin alusta "Verkkoasetukset"-kappaleesta.)
+Komentojen suorittamisen jälkeen palaa muuttamaan "Huomioitavaa!"-kohdassa tehdyt verkkoasetukset takaisin harjoitusympäristöön. (Tarvittaessa löydät ohjeet tämän dokumentin alusta "Verkkoasetukset"-kappaleesta.)
 
 ###### Vaihe 2:
 
