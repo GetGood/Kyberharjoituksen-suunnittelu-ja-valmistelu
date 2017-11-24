@@ -168,6 +168,68 @@ Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 
 ![www_verification_some](https://user-images.githubusercontent.com/16650292/32954546-148b4176-cbbc-11e7-9a81-8deef7ddd483.png)
 
+
+## phpBB3-Foorumi
+
+### Huomioitavaa! 
+
+Vaiheen 1 suorittamiseksi on virtuaalikoneen verkkoasetuksia muutettava hetkellisesti seuraavasti:
+
+Suorita komento ```sudo nano /etc/network/interfaces``` ja muuta rivi:
+
+
+```auto enp0s3 inet static``` --> ```auto enp0s3 inet dhcp``` ja tallenna muutokset.
+
+Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
+
+
+
+Käynnistämällä virtuaalikoneen voit siirtyä vaiheeseen 1.
+
+
+
+###### Vaihe 1:
+
+Suoritetaan seuraavat komennot:
+
+```
+apt-get update && apt-get upgrade -y
+cd /opt
+wget --no-check-certificate https://download.phpbb.com/pub/release/3.2/3.2.1/phpBB-3.2.1.zip
+unzip phpBB-3.1.2.zip
+cp -R phpBB3/* /var/www/html/
+```
+
+###### Vaihe 2:
+
+Suoritetaan oikeuksien muuttaminen komennoilla:
+
+```
+cd /var/www/html/
+for files in config.php cache files store images/avatars/upload/; do chmod 777 $files; done
+```
+
+###### Vaihe 3:
+
+Aloitetaan MySQL-tietokannan luominen komennolla:
+
+```
+mysql -u root -p
+```
+
+, jonka jälkeen syötetään seuraavat tiedot:
+
+	mysql> CREATE DATABASE foorumi;
+
+	mysql> GRANT ALL PRIVILEGES on foorumi.* TO 'user'@'localhost' IDENTIFIED BY 'user66';
+
+	mysql> FLUSH PRIVILEGES;
+
+	mysql> quit;
+	
+
+###### Vaihe 3:
+
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
 ###### Vaihe 1:
