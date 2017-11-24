@@ -35,7 +35,7 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
-### WWW-palvelut
+### WWW-palvelut (Kotisivut)
 
 SoMe-palvelin vastaa harjoitusympäristössä sosiaalisen median roolista. Palvelimella on omat kotisivut, joiden kautta käyttäjä näkee uusimmat uutiset ja ajankohtaiset päivitykset. Sivun kautta käyttäjä pääsee myös foorumille, jolla simuloidaan harjoitusmaailman SoMea.
 
@@ -169,7 +169,7 @@ Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 ![www_verification_some](https://user-images.githubusercontent.com/16650292/32954546-148b4176-cbbc-11e7-9a81-8deef7ddd483.png)
 
 
-## phpBB3-Foorumi
+## WWW-palvelut (phpBB3-foorumi)
 
 ### Huomioitavaa! 
 
@@ -232,8 +232,6 @@ mysql -u root -p
 
 	mysql> quit;
 	
-
-###### Vaihe 3:
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
