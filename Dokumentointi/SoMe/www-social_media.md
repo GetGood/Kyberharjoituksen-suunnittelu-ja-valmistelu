@@ -199,6 +199,7 @@ Suoritetaan seuraavat komennot:
 
 ```
 apt-get update && apt-get upgrade -y
+apt-get install php-xml
 cd /opt
 wget --no-check-certificate https://download.phpbb.com/pub/release/3.2/3.2.1/phpBB-3.2.1.zip
 unzip phpBB-3.1.2.zip
