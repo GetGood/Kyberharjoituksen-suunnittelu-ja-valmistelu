@@ -173,19 +173,24 @@ Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 
 ### Huomioitavaa! 
 
-Vaiheen 1 suorittamiseksi on virtuaalikoneen verkkoasetuksia muutettava hetkellisesti seuraavasti:
+Vaiheen 1 suorittamiseksi on virtuaalikoneen verkkoasetuksia muutettava hetkellisesti:
 
-Suorita komento ```sudo nano /etc/network/interfaces``` ja muuta rivi:
+Suorita komento ```sudo nano /etc/network/interfaces```, muokkaa tiedostoa, tallenna muutokset ja sammuta virtuaalikone:
 
+Ennen:
+	
+	auto enp0s3 inet static
 
-```auto enp0s3 inet static``` --> ```auto enp0s3 inet dhcp``` ja tallenna muutokset.
+Jälkeen:
+
+	auto enp0s3 inet dhcp
+	
 
 Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
 
+![www_some_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946671-26986f1c-cba1-11e7-8c64-d16a3c5ceab4.png)
 
-
-Käynnistämällä virtuaalikoneen voit siirtyä vaiheeseen 1.
-
+Käynnistämällä virtuaalikoneen uudelleen voit siirtyä vaiheeseen 1.
 
 
 ###### Vaihe 1:
