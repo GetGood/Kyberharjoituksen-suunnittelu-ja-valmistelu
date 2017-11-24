@@ -188,7 +188,7 @@ Jälkeen:
 
 Muutosten jälkeen tallenna tiedosto ja sammuta virtuaalikone.Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
 
-![www_some_virtualbox_step1](https://user-images.githubusercontent.com/16650292/32946671-26986f1c-cba1-11e7-8c64-d16a3c5ceab4.png)
+![some_virtualbox_adapter](https://user-images.githubusercontent.com/16650292/33211337-c46d9796-d126-11e7-864d-651a9958b758.png)
 
 Käynnistämällä virtuaalikoneen uudelleen voit siirtyä vaiheeseen 1.
 
@@ -204,6 +204,8 @@ wget --no-check-certificate https://download.phpbb.com/pub/release/3.2/3.2.1/php
 unzip phpBB-3.1.2.zip
 cp -R phpBB3/* /var/www/html/
 ```
+
+Komentojen suorittamisen jälkeen palaa muuttamaan "Huomioitavaa!"-kohdassa tehdyt verkkoasetukset takaisin harjoitusympäristöön. (Tarvittaessa löydät ohjeet: Tämän dokumentin alusta "Verkkoasetukset"-kappaleesta.)
 
 ###### Vaihe 2:
 
