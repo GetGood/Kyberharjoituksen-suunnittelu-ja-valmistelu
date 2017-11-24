@@ -238,6 +238,7 @@ mysql -u root -p
 
 ###### Vaihe 4:
 	
+# TÄSTÄ JATKUU...
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
