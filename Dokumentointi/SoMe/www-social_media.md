@@ -207,7 +207,9 @@ Suorita komento: ```service apache2 restart```
 
 Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 
+![kotisivut_etusivu](https://user-images.githubusercontent.com/16650292/33239405-5d0b33f8-d2aa-11e7-90e3-c1576d509751.png)
 
+![kotisivut_uutiset](https://user-images.githubusercontent.com/16650292/33239404-5cee70c4-d2aa-11e7-8c29-abd7d881eeb8.png)
 
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
