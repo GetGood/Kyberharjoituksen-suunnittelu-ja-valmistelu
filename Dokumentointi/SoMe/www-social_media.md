@@ -265,6 +265,10 @@ service apache2 restart
 
 Nyt phpBB3-foorumi on onnistuneesti asennettu palvelimelle.
 
+#### HUOMIOITAVAA!
+
+Jos kirjautuminen foorumille ei onnistu, ongelman voi ratkaista poistamalla Lubuntu työaseman selaushistorian. 
+
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
 ###### Vaihe 1:
