@@ -237,6 +237,10 @@ mysql -u root -p
 	
 
 ###### Vaihe 4:
+
+Selaa osoitteeseen www.some.fi/index.php Lubuntu työasemalla ja paina "INSTALL" välilehteä, jonka jälkeen voit aloittaa phpBB3-foorumin asennuksen painamalla "Install". Seuraamalla kuvakaappauksien ohjeita voidaan phpBB3-foorumin asennus harjoitusympäristöön suorittaa onnistuneesti.
+
+
 	
 # TÄSTÄ JATKUU...
 
