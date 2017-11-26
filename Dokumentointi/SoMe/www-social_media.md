@@ -240,9 +240,30 @@ mysql -u root -p
 
 Selaa osoitteeseen www.some.fi/index.php Lubuntu työasemalla ja paina "INSTALL" välilehteä, jonka jälkeen voit aloittaa phpBB3-foorumin asennuksen painamalla "Install". Seuraamalla kuvakaappauksien ohjeita voidaan phpBB3-foorumin asennus harjoitusympäristöön suorittaa onnistuneesti.
 
+![phpbb_install_1](https://user-images.githubusercontent.com/16650292/33239183-29ac2daa-d2a5-11e7-8adc-bfa66b8e43c3.png)
 
-	
-# TÄSTÄ JATKUU...
+![phpbb_install_2](https://user-images.githubusercontent.com/16650292/33239184-29c9f434-d2a5-11e7-9ca6-12aaa2148ef6.png)
+
+![phpbb_install_3](https://user-images.githubusercontent.com/16650292/33239185-29e4ee9c-d2a5-11e7-911e-5aa4db2adc51.png)
+
+![phpbb_install_4](https://user-images.githubusercontent.com/16650292/33239186-29ff674a-d2a5-11e7-9b3e-7a0425ff98e8.png)
+
+![phpbb_install_5](https://user-images.githubusercontent.com/16650292/33239187-2a19ddc8-d2a5-11e7-9bb7-6c4f6fb5ee75.png)
+
+![phpbb_install_6](https://user-images.githubusercontent.com/16650292/33239188-2a34fc0c-d2a5-11e7-9dcb-63953bb45c2b.png)
+
+![phpbb_install_7](https://user-images.githubusercontent.com/16650292/33239189-2a4e8078-d2a5-11e7-9fa6-791a0ab3ca03.png)
+
+###### Vaihe 5:
+
+phpBB3-foorumin asennustiedoston poistaminen ja palvelimen uudelleenkäynnistys komennoilla:
+
+```
+rm -rf /var/www/html/install
+service apache2 restart
+```
+
+Nyt phpBB3-foorumi on onnistuneesti asennettu palvelimelle.
 
 ### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
 
