@@ -248,13 +248,13 @@ Vaiheen 1 suorittamiseksi on virtuaalikoneen verkkoasetuksia muutettava hetkelli
 
 Suorita komento ```sudo nano /etc/network/interfaces``` ja muokkaa tiedostoa:
 
-Ennen:
-	
-	auto enp0s3 inet static
+	Ennen:
 
-Jälkeen:
+		auto enp0s3 inet static
 
-	auto enp0s3 inet dhcp
+	Jälkeen:
+
+		auto enp0s3 inet dhcp
 	
 
 Muutosten jälkeen tallenna tiedosto ja sammuta virtuaalikone. Virtuaalikoneen sammuttua muuta virtuaalikoneen VirtualBox:in adapteri seuraavasti:
