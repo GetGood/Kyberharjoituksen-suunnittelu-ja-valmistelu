@@ -35,76 +35,6 @@ iface enp0s3 inet static
 
 Järjestelmän uudelleenkäynnistyksen jälkeen asetetut verkkoasetukset ovat tulevat voimaan.
 
-### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
-
-###### Vaihe 1:
-
-Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/some/newcert.pem polku_minne_tuodaan_newcert.pem```
-
-###### Vaihe 2:
-
-Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/some/newkey.pem polku_minne_tuodaan_newkey.pem```
-
-###### Vaihe 3:
-
-Suorita komennot (ei välttämätöntä, jos default_ssl jo luotu): 
-
-```
-a2enmod ssl
-a2ensite default-ssl
-service apache2 restart
-```
-
-###### Vaihe 4:
-
-Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedot tiedoston loppuun ja tallenna muutokset:
-
-        <VirtualHost 31.7.16.10:80>
-                ServerName 31.7.16.10
-                Redirect permanent / https://www.some.fi/
-        </VirtualHost>
-                
-        <VirtualHost www.some.fi:80>
-                ServerName 31.7.16.10
-                Redirect permanent / https://www.some.fi/
-        </VirtualHost>
-        
-        <VirtualHost _default_:443>
-                ServerName 31.7.16.10
-                Redirect permanent / https://www.some.fi/
-        </VirtualHost>
-        
-###### Vaihe 5:
-
-Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
-
-        Ennen:
-                        SSLCertificateFile      /alkuperäinen/polku
-                        SSLCertificateKeyFile   /alkuperäinen/polku
-        
-        Jälkeen:
-                        SSLCertificateFile      polku_minne_tuodaan_newcert.pem
-                        SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
-
-
-###### Vaihe 6:
-
-Suorita komento: ```service apache2 restart```
-
-###### Vaihe 7:
-
-Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
-
-###### Vaihe 8:
-
-![ca_verification_some](https://user-images.githubusercontent.com/16650292/32953655-8eebc092-cbb9-11e7-8cb3-73309d2d4053.png)
-
-
-Nyt varmenneorganisaation allekirjoittama sertifikaatti on otettu onnistuneesti käyttöön.
-
-### Huomioitavaa
-
-Jos tiedostossa **default-ssl.conf** rivi **SSLEngine on** on kommentoitu, poista kommentointi.
 
 ### WWW-palvelut (Kotisivut)
 
@@ -236,9 +166,79 @@ Suorita komento: ```service apache2 restart```
 
 Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 
-
 ![www_verification_some](https://user-images.githubusercontent.com/16650292/32954546-148b4176-cbbc-11e7-9a81-8deef7ddd483.png)
 
+
+### Sertifikaatin ”SoMe Oy” (SoMe) käyttöönotto
+
+###### Vaihe 1:
+
+Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/some/newcert.pem polku_minne_tuodaan_newcert.pem```
+
+###### Vaihe 2:
+
+Suorita komento: ```scp user@195.20.4.10:/usr/lib/ssl/misc/some/newkey.pem polku_minne_tuodaan_newkey.pem```
+
+###### Vaihe 3:
+
+Suorita komennot (ei välttämätöntä, jos default_ssl jo luotu): 
+
+```
+a2enmod ssl
+a2ensite default-ssl
+service apache2 restart
+```
+
+###### Vaihe 4:
+
+Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedot tiedoston loppuun ja tallenna muutokset:
+
+        <VirtualHost 31.7.16.10:80>
+                ServerName 31.7.16.10
+                Redirect permanent / https://www.some.fi/
+        </VirtualHost>
+                
+        <VirtualHost www.some.fi:80>
+                ServerName 31.7.16.10
+                Redirect permanent / https://www.some.fi/
+        </VirtualHost>
+        
+        <VirtualHost _default_:443>
+                ServerName 31.7.16.10
+                Redirect permanent / https://www.some.fi/
+        </VirtualHost>
+        
+###### Vaihe 5:
+
+Suorita komento: ```nano /etc/apache2/sites-enabled/default-ssl.conf``` ja muuta seuraavat tiedot tiedostoon ja tallenna muutokset:
+
+        Ennen:
+                        SSLCertificateFile      /alkuperäinen/polku
+                        SSLCertificateKeyFile   /alkuperäinen/polku
+        
+        Jälkeen:
+                        SSLCertificateFile      polku_minne_tuodaan_newcert.pem
+                        SSLCertificateKeyFile   polku_minne_tuodaan_newkey.pem   
+
+
+###### Vaihe 6:
+
+Suorita komento: ```service apache2 restart```
+
+###### Vaihe 7:
+
+Tarkista, että Apache on päällä suorittamalla komento: ```service apache2 status```
+
+###### Vaihe 8:
+
+![ca_verification_some](https://user-images.githubusercontent.com/16650292/32953655-8eebc092-cbb9-11e7-8cb3-73309d2d4053.png)
+
+
+Nyt varmenneorganisaation allekirjoittama sertifikaatti on otettu onnistuneesti käyttöön.
+
+### Huomioitavaa
+
+Jos tiedostossa **default-ssl.conf** rivi **SSLEngine on** on kommentoitu, poista kommentointi.
 
 ## WWW-palvelut (phpBB3-foorumi)
 
