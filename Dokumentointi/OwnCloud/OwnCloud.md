@@ -117,13 +117,13 @@ Luodaan SymLink:
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
 ```
 
-###### Vaihe 3 (OwnCloud:in konfigurointi selaimen kautta): 
+###### Vaihe 3 (OwnCloud:n konfigurointi selaimen kautta): 
 
 Selaataan OwnCloudin osoitteeseen. http://10.0.0.11/owncloud ja luodaan tunnukset:
 
 
 
-###### Vaihe 3 (OwnCloud:in konfigurointi): 
+###### Vaihe 3 (OwnCloud:n konfigurointi): 
 
 Lisätään domaineja palvelimelle komennolla ```nano /var/www/html/owncloud/config/config.php``` ja tallennetaan tiedosto muutoksien jälkeen:
 
@@ -185,17 +185,24 @@ Tehdään verkkosivujen etusivu komennolla ```nano /var/www/html/index.html``` j
 </html>
 ```
 
-Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä: [palaute]( ../Syotteet/palaute_puppu_ohje.md ) Tiedoston sisältö: [palaute.php](palaute/palaute.php)
+Tehdään verkkosivujen palautesivu komennolla ```nano /var/www/html/palaute.php``` tämän sivun haavoittuvuutta käytetään harjoituksen syötteessä: [palaute]( ../Syotteet/palaute_puppu_ohje.md ). Tiedoston sisältö: [palaute.php](palaute/palaute.php).
 
-tallenna.php ```nano /var/www/html/tallenna.php``` sisällöllä: [tallenna.php](palaute/tallenna.php)
+tallenna.php ```nano /var/www/html/tallenna.php```. Tiedoston sisältö: [tallenna.php](palaute/tallenna.php)
 
-style.css ```nano /var/www/html/style.css``` sisällöllä: [style.css](palaute/style.css)
+style.css ```nano /var/www/html/style.css```. Tiedoston sisältö: [style.css](palaute/style.css)
 
 
+Selaamalla osoitteeseen www.datacenter(.)fi nähdään että verkkosivut toimivat:
 
-Selaamalla osoitteeseen www.datacenter(.)fi ja www.datacenter(.)fi/palaute.php nähdään että verkkosivut toimivat:
+![datacenter_fi](https://user-images.githubusercontent.com/16650292/33239891-c8851748-d2b4-11e7-8a6a-6f03050b6f7c.png)
 
-# KUVIA SIVUISTA TÄHÄN
+![datacenter_fi_2](https://user-images.githubusercontent.com/16650292/33239892-c8a2c360-d2b4-11e7-95db-4c7054daee1f.png)
+
+![datacenter_fi_3](https://user-images.githubusercontent.com/16650292/33239893-c8be2cb8-d2b4-11e7-828e-a1f6bd46ab9b.png)
+
+
+###### Vaihe 5 (Sähköpostipalvelu):
+
 Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( ../Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
 
 ```
