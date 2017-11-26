@@ -90,6 +90,43 @@ Suorita komento: ```nano /var/www/html/index.html``` , lisää seuraavat tiedot 
 ```
 ###### Vaihe 3:
 
+Suorita komento: ```nano /var/www/html/uutiset.html``` , lisää seuraavat tiedot ja tallenna tiedosto:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Koko Suomen Uutiset</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />	
+</head>
+<body>  
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Koko Suomen Uutiset</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Etusivu</a></li>
+				<li><a href="/uutiset.html">Uutiset</a></li>
+				<li><a href="/index.php">Foorumi</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h2>Uutiset</h2>
+			<p>
+				Täältä löydät ajankohtaisimmat uutiset päivitysjärjestyksessä.<br>
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Koko Suomen Uutiset <a href="/" target="_blank">[(C) SOME]</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+```
+###### Vaihe 4:
+
 Suorita komento: ```nano /var/www/html/style.css``` , lisää seuraavat tiedot ja tallenna tiedosto:
 ```
 p{ line-height: 1em; }
@@ -158,11 +195,11 @@ body{
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
 ```
-###### Vaihe 4:
+###### Vaihe 5:
 
 Suorita komento: ```service apache2 restart```
 
-###### Vaihe 5:
+###### Vaihe 6:
 
 Selaamalla osoitteeseen www.some.fi, nähdään että verkkosivut toimivat:
 
