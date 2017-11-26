@@ -203,12 +203,15 @@ Selaamalla osoitteeseen www.datacenter(.)fi nähdään että verkkosivut toimiva
 
 ###### Vaihe 5 (Sähköpostipalvelu):
 
-Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( ../Syotteet/email.md ) Ensin luodaan kansio sähköpostille:
+Lisätään sähköpostipalvelu yritykselle. Tätä sähköpostia käytetään syötteessä: [sahkoposti]( ../Syotteet/email.md ).
+
+Ensin luodaan kansio sähköpostille:
 
 ```
 mkdir /var/www/html/email/datadir
 ```
 Tämän jälkeen kyseiseen email kansioon lisätään seuraavat PHP tiedostot:
+
 index.php ```nano /var/www/html/email/index.php``` sisällöllä: [index.php](email/index.php)  
 login.php ```nano /var/www/html/email/login.php``` sisällöllä: [login.php](email/login.php)  
 logout.php ```nano /var/www/html/email/logout.php``` sisällöllä: [logout.php](email/logout.php)  
