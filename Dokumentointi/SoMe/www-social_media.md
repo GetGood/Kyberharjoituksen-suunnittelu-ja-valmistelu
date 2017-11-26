@@ -57,6 +57,8 @@ Suorita komento: ```nano /var/www/html/index.html``` , lisää seuraavat tiedot 
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+
     <title>Koko Suomen Uutiset</title>
     <link rel="stylesheet" href="style.css" type="text/css" />	
 </head>
@@ -76,7 +78,7 @@ Suorita komento: ```nano /var/www/html/index.html``` , lisää seuraavat tiedot 
 			<h2>Tervetuloa</h2>
 			<p>
 				Olet saapunut Koko Suomen Uutisten sivuille.<br>
-                                Taalta loydat Suomen ajankohtaisimmat uutiset!
+                                Täälta löydät Suomen ajankohtaisimmat uutiset!
 			</p>
 		</div>
 		<div id="footer">
@@ -95,6 +97,8 @@ Suorita komento: ```nano /var/www/html/uutiset.html``` , lisää seuraavat tiedo
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+
     <title>Koko Suomen Uutiset</title>
     <link rel="stylesheet" href="style.css" type="text/css" />	
 </head>
