@@ -248,7 +248,6 @@ Suorita komento: ```nano /etc/apache2/apache2.conf``` ja lisää seuraavat tiedo
         
         <VirtualHost _default_:443>
                 ServerName 31.7.16.10
-                Redirect permanent / https://www.some.fi/
         </VirtualHost>
         
 ###### Vaihe 5:
