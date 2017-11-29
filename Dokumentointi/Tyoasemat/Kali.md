@@ -135,3 +135,7 @@ Avautuneessa ikkunassa: "Downloading Certificate" - "You have been asked to trus
 
 Nyt varmenneorganisaation allekirjoittamat sertifikaatit ovat luotettuja ja selaaminen on suojattu SSL-salauksella.
 
+### Slowloris asennus (Työasemat 1 & 2):
+
+1) sudo apt-get install python3-pip
+2) pip3 install slowloris
