@@ -119,7 +119,12 @@ ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/ownc
 
 ###### Vaihe 3 (OwnCloud:n konfigurointi selaimen kautta): 
 
-Selaataan OwnCloudin osoitteeseen. http://10.0.0.11/owncloud ja luodaan tunnukset:
+Selataan OwnCloudin osoitteeseen. http://10.0.0.11/owncloud ja luodaan tunnukset:
+
+![owncloud](https://user-images.githubusercontent.com/16650292/33899590-a1cf002e-df74-11e7-86a4-b9eccf653b32.PNG)
+
+
+![owncloud_2](https://user-images.githubusercontent.com/16650292/33899591-a1f0676e-df74-11e7-99da-762ef97545a8.PNG)
 
 
 
