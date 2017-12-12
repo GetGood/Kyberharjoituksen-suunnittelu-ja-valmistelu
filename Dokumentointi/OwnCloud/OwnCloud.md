@@ -62,9 +62,9 @@ ja määritetään tietokanta:
 ```
 mysql -u root -p
 
-	mysql> CREATE DATABASE foorumi;
+	mysql> CREATE DATABASE owncloud;
 
-	mysql> GRANT ALL PRIVILEGES on foorumi.* TO 'user'@'localhost' IDENTIFIED BY 'user66';
+	mysql> GRANT ALL PRIVILEGES on owncloud.* TO 'user'@'localhost' IDENTIFIED BY 'user66';
 
 	mysql> FLUSH PRIVILEGES;
 
