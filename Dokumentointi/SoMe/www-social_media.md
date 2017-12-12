@@ -78,7 +78,7 @@ Suorita komento: ```nano /var/www/html/index.html``` , lisää seuraavat tiedot 
 			<h2>Tervetuloa</h2>
 			<p>
 				Olet saapunut Koko Suomen Uutisten sivuille.<br>
-                                Täälta löydät Suomen ajankohtaisimmat uutiset!
+                                Täältä löydät Suomen ajankohtaisimmat uutiset!
 			</p>
 		</div>
 		<div id="footer">
