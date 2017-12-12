@@ -235,7 +235,7 @@ logout.php ```nano /var/www/html/email/logout.php``` sisällöllä: [logout.php]
 tallenna.php ```nano /var/www/html/email/tallenna.php``` sisällöllä: [tallenna.php](email/tallenna.php)  
 style.css ```nano /var/www/html/email/style.css``` sisällöllä: [style.css](email/style.css)  
 
-![email](Kyberharjoituksen-suunnittelu-ja-valmistelu/Dokumentointi/Syotteet/sposti.PNG)
+![email](/Dokumentointi/Syotteet/sposti.PNG)
 
 ### Verkkoasetukset
 
