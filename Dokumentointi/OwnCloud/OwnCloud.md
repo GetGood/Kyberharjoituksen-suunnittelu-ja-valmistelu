@@ -51,12 +51,24 @@ Secure MariaDB asennus:
 mysql_secure_installation
 ```
 
-Asennetaan PHP, tarkistetaan versio ja määritetään salasana:
+Asennetaan PHP, tarkistetaan versio:
 ```
 apt install php php-mysql
 root@debian:~# php --version
 PHP 7.0.19-1 (cli) (built: May 11 2017 14:04:47) ( NTS )
+```
+ja määritetään tietokanta:
+
+```
 mysql -u root -p
+
+	mysql> CREATE DATABASE foorumi;
+
+	mysql> GRANT ALL PRIVILEGES on foorumi.* TO 'user'@'localhost' IDENTIFIED BY 'user66';
+
+	mysql> FLUSH PRIVILEGES;
+
+	mysql> quit;
 ```
 
 Ja näin LAMP on asennettu Debian 9:lle.
