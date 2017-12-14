@@ -3,7 +3,7 @@
 Red Team aloittaa nmap- porttiskannauksen käyttäen Decoy flagia määrittäen eri IP osoitteita eripuolelta maailmaa,  
 jotta kohde ei voi helpolla tunnista lähdettä tai estää sitä palomuurista.
 ```
-sudo nmap -D RND:15 -O 89.250.48.10
+sudo nmap -O -D RND:15 89.250.48.10
 ```
 Tämä vaihtaa pakettien source IP:ksi 15 sattumanvaraista IP osoitetta  
 Tämä näkyy Datacenterin palomuurin IDS:n Alerteissa hyvin suurena määränä merkintöjä  
